@@ -1,0 +1,470 @@
+{
+"yyteri": {
+"miss": 1
+},
+"yyteri_dunes": {
+"miss": 1
+},
+"reposaari": {
+"name": "Reposaari",
+"lat": 61.61203,
+"lon": 21.44131,
+"disp": "Reposaari, Pori, Porin seutukunta, Satakunta, Manner-Suomi, Suomi / Fi"
+},
+"kirjurinluoto": {
+"name": "Kirjurinluoto",
+"lat": 61.49493,
+"lon": 21.78505,
+"disp": "Kirjurinluoto, Pori, Porin seutukunta, Satakunta, Manner-Suomi, Suomi "
+},
+"puurijarvi": {
+"name": "Puurijärven ja Isosuon kansallispuisto",
+"lat": 61.26003,
+"lon": 22.55355,
+"disp": "Puurijärven ja Isosuon kansallispuisto, Kokemäki, Porin seutukunta, Sa"
+},
+"kauhaneva": {
+"name": "Kauhanevan–Pohjankankaan kansallispuisto",
+"lat": 62.21951,
+"lon": 22.40694,
+"disp": "Kauhanevan–Pohjankankaan kansallispuisto, Etelä-Pohjanmaa, Manner-Suom"
+},
+"selkameri": {
+"name": "Selkämeren kansallispuisto",
+"lat": 61.80222,
+"lon": 21.31401,
+"disp": "Selkämeren kansallispuisto, Satakunta, Manner-Suomi, Suomi / Finland"
+},
+"noormarkku": {
+"miss": 1
+},
+"sappi": {
+"name": "Île au Sapin",
+"lat": 47.14352,
+"lon": -70.48358,
+"disp": "Île au Sapin, Saint-Antoine-de-l'Isle-aux-Grues, Montmagny (MRC), Chau"
+},
+"laajavuori": {
+"name": "Laajavuori",
+"lat": 62.25809,
+"lon": 25.68632,
+"disp": "Laajavuori, Kortepohja, Kypärämäki-Kortepohja, Jyväskylä, Jyväskylän s"
+},
+"tourujoki": {
+"miss": 1
+},
+"kanavuori": {
+"name": "Kanavuori",
+"lat": 62.23022,
+"lon": 25.90593,
+"disp": "Kanavuori, Vaajakoski-Jyskä, Jyväskylä, Jyväskylän seutukunta, Keski-S"
+},
+"jyvas_harju": {
+"name": "Harju",
+"lat": 62.24674,
+"lon": 25.7436,
+"disp": "Harju, Kantakaupunki, Jyväskylä, Jyväskylän seutukunta, Keski-Suomi, M"
+},
+"leivonmaki": {
+"name": "Leivonmäen kansallispuisto",
+"lat": 61.94131,
+"lon": 26.0165,
+"disp": "Leivonmäen kansallispuisto, Joutsa, Joutsan seutukunta, Keski-Suomi, M"
+},
+"salamajarvi": {
+"name": "Salamajärven kansallispuisto",
+"lat": 63.26604,
+"lon": 24.77864,
+"disp": "Salamajärven kansallispuisto, Keski-Suomi, Manner-Suomi, Suomi / Finla"
+},
+"pyhahakki": {
+"name": "Pyhä-Häkin kansallispuisto",
+"lat": 62.84488,
+"lon": 25.46152,
+"disp": "Pyhä-Häkin kansallispuisto, Saarijärvi, Saarijärvi-Viitasaaren seutuku"
+},
+"oravivuori": {
+"name": "Oravivuori",
+"lat": 61.92674,
+"lon": 25.53359,
+"disp": "Oravivuori, Jyväskylä, Jyväskylän seutukunta, Keski-Suomi, Manner-Suom"
+},
+"himos": {
+"name": "Himos",
+"lat": 61.88078,
+"lon": 25.29963,
+"disp": "Himos, Säyrylä, Jämsä, Jämsän seutukunta, Keski-Suomi, Manner-Suomi, 4"
+},
+"muurame": {
+"name": "Muuratsalo",
+"lat": 62.11331,
+"lon": 25.76549,
+"disp": "Muuratsalo, Säynätsalo, Jyväskylä, Jyväskylän seutukunta, Keski-Suomi,"
+},
+"olavinlinna": {
+"name": "Olavinlinna",
+"lat": 61.8639,
+"lon": 28.89993,
+"disp": "Olavinlinna, Kyrönsalmen ponttoonisilta, Kyrönniemi, Savonlinna, Savon"
+},
+"savonlinna_tori": {
+"name": "Savonlinnan kauppatori",
+"lat": 61.8681,
+"lon": 28.88491,
+"disp": "Savonlinnan kauppatori, Kauppatori, Savola, Savonlinna, Savonlinnan se"
+},
+"linnansaari": {
+"name": "Linnansaaren kansallispuisto",
+"lat": 62.06022,
+"lon": 28.58366,
+"disp": "Linnansaaren kansallispuisto, Etelä-Savo, Manner-Suomi, Suomi / Finlan"
+},
+"kolovesi": {
+"miss": 1
+},
+"kerimaki": {
+"name": "Kerimäen kirkko",
+"lat": 61.9126,
+"lon": 29.28507,
+"disp": "Kerimäen kirkko, 1, Hälväntie, Kerimäki, Savonlinna, Savonlinnan seutu"
+},
+"pihlajavesi": {
+"name": "Pihlajavesi",
+"lat": 61.65238,
+"lon": 29.21383,
+"disp": "Pihlajavesi, Etelä-Savo, Manner-Suomi, Suomi / Finland"
+},
+"rauhalinna": {
+"name": "Rauhalinna",
+"lat": 60.40385,
+"lon": 22.39684,
+"disp": "Rauhalinna, Kesämäki, Voivala, Empo, Kaarina, Turun seutukunta, Varsin"
+},
+"punkaharju": {
+"name": "Punkaharjun harjutie",
+"lat": 61.76557,
+"lon": 29.371,
+"disp": "Punkaharjun harjutie, Punkaharju, Savonlinna, Savonlinnan seutukunta, "
+},
+"lusto": {
+"name": "Lusto",
+"lat": 61.80062,
+"lon": 29.32193,
+"disp": "Lusto, Savonlinnantie, Punkaharju, Savonlinna, Savonlinnan seutukunta,"
+},
+"punkaharju_nr": {
+"miss": 1
+},
+"kummakivi": {
+"name": "Kummakivi",
+"lat": 61.49333,
+"lon": 28.43009,
+"disp": "Kummakivi, Kummakiventie, Valkki, Ruokolahti, Imatran seutukunta, Etel"
+},
+"siikalahti": {
+"name": "Siikalahti",
+"lat": 64.16189,
+"lon": 29.31645,
+"disp": "Siikalahti, Kuhmo, Kehys-Kainuun seutukunta, Kainuu, Manner-Suomi, Suo"
+},
+"harjukylpyla": {
+"miss": 1
+},
+"porvoo": {
+"miss": 1
+},
+"porvoonjoki": {
+"name": "Porvoonjoki",
+"lat": 60.70301,
+"lon": 25.64717,
+"disp": "Porvoonjoki, Päijät-Häme, Manner-Suomi, Suomi / Finland"
+},
+"sipoonkorpi": {
+"name": "Sipoonkorven kansallispuisto",
+"lat": 60.34252,
+"lon": 25.20265,
+"disp": "Sipoonkorven kansallispuisto, Sipoo, Helsingin seutukunta, Uusimaa, Ma"
+},
+"soderskar": {
+"name": "Söderskär",
+"lat": 59.93558,
+"lon": 24.44537,
+"disp": "Söderskär, Porkkala, Eteläinen Kirkkonummi, Kirkkonummi, Helsingin seu"
+},
+"pellinki": {
+"name": "Pellinki",
+"lat": 60.21389,
+"lon": 25.85257,
+"disp": "Pellinki, Porvoo, Porvoon seutukunta, Uusimaa, Manner-Suomi, 07370, Su"
+},
+"vesso": {
+"name": "Vessöö",
+"lat": 60.28654,
+"lon": 25.72251,
+"disp": "Vessöö, Porvoo, Porvoon seutukunta, Uusimaa, Manner-Suomi, Suomi / Fin"
+},
+"tammisaari": {
+"name": "Gamla stan",
+"lat": 59.97332,
+"lon": 23.43295,
+"disp": "Gamla stan, Formanshagen, Ekenäs, Raseborg, Raseborgs ekonomiska regio"
+},
+"ekenas_np": {
+"name": "Ekenäs skärgårds nationalpark",
+"lat": 59.83888,
+"lon": 23.41998,
+"disp": "Ekenäs skärgårds nationalpark, Raseborg, Raseborgs ekonomiska region, "
+},
+"ramsholmen": {
+"name": "Ramsholmen",
+"lat": 60.28121,
+"lon": 25.81647,
+"disp": "Ramsholmen, Fagersta, Porvoo, Porvoon seutukunta, Uusimaa, Manner-Suom"
+},
+"hanko_beach": {
+"miss": 1
+},
+"tulliniemi": {
+"name": "Tulliniemi",
+"lat": 59.81072,
+"lon": 22.91055,
+"disp": "Tulliniemi, Ulkosatama, Hanko, Raseborgs ekonomiska region, Uusimaa, M"
+},
+"hanko_tower": {
+"name": "Hangon vesitorni",
+"lat": 59.82486,
+"lon": 22.97052,
+"disp": "Hangon vesitorni, Kirkkomäki, Tehtaanniemi, Keskusta, Hanko, Raseborgs"
+},
+"bengtskar": {
+"name": "Bengtskär",
+"lat": 59.72304,
+"lon": 22.49915,
+"disp": "Bengtskär, Hitis, Kimitoön, Åboland, Varsinais-Suomi, Manner-Suomi, Su"
+},
+"jussaro": {
+"name": "Jussarö",
+"lat": 59.82586,
+"lon": 23.56833,
+"disp": "Jussarö, Ekenäs, Raseborg, Raseborgs ekonomiska region, Uusimaa, Manne"
+},
+"fiskars": {
+"name": "Fiskars",
+"lat": 60.13157,
+"lon": 23.54193,
+"disp": "Fiskars, Raseborg, Raseborgs ekonomiska region, Uusimaa, Manner-Suomi,"
+},
+"lappvik": {
+"name": "Lappohja",
+"lat": 59.90408,
+"lon": 23.23692,
+"disp": "Lappohja, Koverharintie, Lappohja, Hanko, Raseborgs ekonomiska region,"
+},
+"lappeenranta": {
+"name": "Linnoitus",
+"lat": 61.06571,
+"lon": 28.18295,
+"disp": "Linnoitus, Lappeenranta, Lappeenrannan seutukunta, Etelä-Karjala, Mann"
+},
+"imatrankoski": {
+"name": "Imatrankoski",
+"lat": 61.16887,
+"lon": 28.77252,
+"disp": "Imatrankoski, Imatra, Imatran seutukunta, Etelä-Karjala, Manner-Suomi,"
+},
+"kruununpuisto": {
+"name": "Kruununpuisto",
+"lat": 60.61989,
+"lon": 24.85565,
+"disp": "Kruununpuisto, Hyvinkää, Helsingin seutukunta, Uusimaa, Manner-Suomi, "
+},
+"saimaa_canal": {
+"name": "Saimaan kanava - Saimaa Canal - Сайменский канал - Saima kanal",
+"lat": 60.92569,
+"lon": 28.5996,
+"disp": "Saimaan kanava - Saimaa Canal - Сайменский канал - Saima kanal, Выборг"
+},
+"repovesi": {
+"miss": 1
+},
+"karnakoski": {
+"name": "Kärnäkosken linnoitus",
+"lat": 61.26227,
+"lon": 27.71035,
+"disp": "Kärnäkosken linnoitus, Partakoskentie, Partakoski, Savitaipale, Lappee"
+},
+"rauha": {
+"name": "Escape Room Imatra",
+"lat": 61.19281,
+"lon": 28.69118,
+"disp": "Escape Room Imatra, 1-3, Vipelentie, Rantapuisto, Repokivi, Rauha, Lap"
+},
+"pakri": {
+"name": "Pakri pank",
+"lat": 59.38818,
+"lon": 24.0486,
+"disp": "Pakri pank, Paldiski linn, Lääne-Harju vald, Harju maakond, Eesti"
+},
+"turisalu": {
+"name": "Türisalu pank",
+"lat": 59.42038,
+"lon": 24.32136,
+"disp": "Türisalu pank, Vääna-Jõesuu küla, Türisalu küla, Keila-Joa alevik, Har"
+},
+"panga": {
+"name": "Panga Pank",
+"lat": 58.56574,
+"lon": 22.28429,
+"disp": "Panga Pank, Panga küla, Saaremaa vald, Saare maakond, Eesti"
+},
+"uugu": {
+"name": "Üügu Pank",
+"lat": 58.67111,
+"lon": 23.24041,
+"disp": "Üügu Pank, Kallaste, Kallaste küla, Muhu vald, Saare maakond, 94742, E"
+},
+"ehalkivi": {
+"name": "Ehalkivi",
+"lat": 59.54978,
+"lon": 26.58761,
+"disp": "Ehalkivi, Letipea tee, Letipea küla, Viru-Nigula vald, Lääne-Viru maak"
+},
+"valaste": {
+"name": "Valaste juga",
+"lat": 59.44384,
+"lon": 27.3351,
+"disp": "Valaste juga, Valaste küla, Jõhvi vald, Ida-Viru maakond, 41555, Eesti"
+},
+"kabli": {
+"name": "Kabli rand",
+"lat": 58.01399,
+"lon": 24.44682,
+"disp": "Kabli rand, Kabli, Kabli küla, Häädemeeste vald, Pärnu maakond, Eesti"
+},
+"haademeeste": {
+"name": "Häädemeeste alevik",
+"lat": 58.07835,
+"lon": 24.49611,
+"disp": "Häädemeeste alevik, Häädemeeste vald, Pärnu maakond, 86001, Eesti"
+},
+"pirita_beach": {
+"name": "Pirita rand",
+"lat": 59.47817,
+"lon": 24.83544,
+"disp": "Pirita rand, Pirita linnaosa, Tallinn, Harju maakond, 11911, Eesti"
+},
+"kolka": {
+"name": "Kolkas rags",
+"lat": 57.75902,
+"lon": 22.60478,
+"disp": "Kolkas rags, Tukums — Ķesterciems — Mērsrags — Kolka, Kolka, Kolkas pa"
+},
+"slitere": {
+"name": "Slīteres nacionālais parks",
+"lat": 57.68754,
+"lon": 22.43964,
+"disp": "Slīteres nacionālais parks, LV-3275, Latvija"
+},
+"ventspils": {
+"name": "Pludmale",
+"lat": 57.38778,
+"lon": 21.53277,
+"disp": "Pludmale, Džungļu taka, Vasarnīcu rajons, Ventspils, LV-3602, Latvija"
+},
+"liepaja": {
+"miss": 1
+},
+"pavilosta": {
+"name": "Pāvilosta",
+"lat": 56.88887,
+"lon": 21.18252,
+"disp": "Pāvilosta, Dienvidkurzemes novads, LV-3466, Latvija"
+},
+"jurmala": {
+"name": "Majori",
+"lat": 56.97131,
+"lon": 23.79679,
+"disp": "Majori, Lienes iela, Majori, Jūrmala, LV-2015, Latvija"
+},
+"kemeri": {
+"name": "Ķemeru purva laipa",
+"lat": 56.90411,
+"lon": 23.45915,
+"disp": "Ķemeru purva laipa, Slampes pagasts, Tukuma novads, LV-2012, Latvija"
+},
+"saulkrasti": {
+"name": "Baltā kāpa",
+"lat": 57.23434,
+"lon": 24.39201,
+"disp": "Baltā kāpa, Kāpu iela, Pabaži, Saulkrasti, Saulkrastu novads, LV-2160,"
+},
+"roja": {
+"name": "Roja",
+"lat": 57.50573,
+"lon": 22.80445,
+"disp": "Roja, Rojas pagasts, Talsu novads, LV-3264, Latvija"
+},
+"lielais_kivis": {
+"name": "Tilgaļu milzakmens",
+"lat": 57.35031,
+"lon": 22.72275,
+"disp": "Tilgaļu milzakmens, Valdemārpils — Pļavas — Sviķi, Vandzene, Vandzenes"
+},
+"palanga": {
+"name": "Palangos tiltas",
+"lat": 55.91988,
+"lon": 21.05035,
+"disp": "Palangos tiltas, J. Basanavičiaus g., Vanagupė, Palanga, Palangos mies"
+},
+"svventoja": {
+"name": "Šventoji",
+"lat": 55.62681,
+"lon": 25.32074,
+"disp": "Šventoji, Utenos apskritis, Lietuva"
+},
+"klaipeda": {
+"name": "Senamiestis",
+"lat": 55.70735,
+"lon": 21.13387,
+"disp": "Senamiestis, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskrit"
+},
+"smiltyne": {
+"name": "Smiltynė",
+"lat": 55.70707,
+"lon": 21.1117,
+"disp": "Smiltynė, Klaipėda, Klaipėdos miesto savivaldybė, Klaipėdos apskritis,"
+},
+"nida": {
+"name": "Nida",
+"lat": 55.30361,
+"lon": 21.00385,
+"disp": "Nida, Neringa, Neringos savivaldybė, Klaipėdos apskritis, Lietuva"
+},
+"parnidis": {
+"name": "Parnidžio kopa",
+"lat": 55.29493,
+"lon": 20.99064,
+"disp": "Parnidžio kopa, Neringa, Neringos savivaldybė, Klaipėdos apskritis, 93"
+},
+"juodkrante": {
+"name": "Juodkrantė",
+"lat": 55.54288,
+"lon": 21.1218,
+"disp": "Juodkrantė, Neringa, Neringos savivaldybė, Klaipėdos apskritis, 93102,"
+},
+"olando": {
+"name": "Olando kepurės skardis",
+"lat": 55.79832,
+"lon": 21.0674,
+"disp": "Olando kepurės skardis, 2217, Karklė, Kretingalės seniūnija, Klaipėdos"
+},
+"karkle": {
+"name": "Karklė",
+"lat": 55.81182,
+"lon": 21.07213,
+"disp": "Karklė, Kretingalės seniūnija, Klaipėdos rajono savivaldybė, Klaipėdos"
+},
+"nagliai": {
+"miss": 1
+}
+}

@@ -26,6 +26,10 @@
     chev: '<path d="M6 9l6 6 6-6"/>',
     home: '<path d="M3 11l9-7 9 7v9.4a1 1 0 01-1 1h-5.4V15H9.4v6.4H4a1 1 0 01-1-1z"/>',
     clock: '<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>',
+    trail: '<path d="M4 20c4-1 4-6 8-7s4-6 8-7"/><circle cx="6" cy="20" r="1.5"/><circle cx="18" cy="6" r="1.5"/>',
+    beach: '<path d="M2 18c2 0 2-2 4-2s2 2 4 2 2-2 4-2 2 2 4 2 2-2 4-2M2 22c2 0 2-2 4-2s2 2 4 2 2-2 4-2 2 2 4 2 2-2 4-2"/><circle cx="17" cy="6" r="3"/>',
+    cliff: '<path d="M3 20h18M4 20V9l5-3 4 4 3-2 4 4v8"/>',
+    view: '<circle cx="12" cy="12" r="2.8"/><path d="M2 12s3.6-6 10-6 10 6 10 6-3.6 6-10 6-10-6-10-6z"/>',
     euro: '<path d="M17 6.5A6.5 6.5 0 007.5 12A6.5 6.5 0 0017 17.5M5.5 10.5h7M5.5 13.5h7"/>'
   };
   const icon = (k, cls) => '<svg class="i ' + (cls || "") + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (P[k] || P.practical) + '</svg>';
@@ -35,6 +39,10 @@
     museum:    { label: "Museum",    color: "#3c5f86" },
     do:        { label: "Do",        color: "#c98a1f" },
     nature:    { label: "Nature",    color: "#2f7d63" },
+    trail:     { label: "Trail",     color: "#39734f" },
+    beach:     { label: "Beach",     color: "#b08d2e" },
+    cliff:     { label: "Cliff",     color: "#6f5a45" },
+    viewpoint: { label: "Viewpoint", color: "#4b7f9e" },
     play:      { label: "Kids play", color: "#b8445e" },
     eat:       { label: "Eat",       color: "#a9522a" },
     cafe:      { label: "Café",      color: "#8a6330" },
@@ -123,7 +131,7 @@
           (p.web ? '<a class="btn" href="' + p.web + '" target="_blank" rel="noopener">' + icon("link") + " Site</a>" : "") +
         "</div></div></article>";
   }
-  const shown = { list: 30, eat: 30, kids: 40 };
+  const shown = { list: 30, eat: 30, kids: 40, nature: 40, coast: 40 };
   function mount(el, items, key, emptyMsg) {
     if (!el) return;
     const n = shown[key] || 30;
@@ -141,6 +149,8 @@
     if (m.dataset.more === "list") renderList();
     if (m.dataset.more === "eat") renderEat();
     if (m.dataset.more === "kids") renderKids();
+    if (m.dataset.more === "nature") renderNature();
+    if (m.dataset.more === "coast") renderCoast();
   });
   document.addEventListener("click", e => {
     const h = e.target.closest(".rowhead");
@@ -176,6 +186,13 @@
   const listState = { cat: "all", day: "all", q: "", minKid: 0, sort: "distance", indoor: "all" };
   const eatState = { kind: "all", maxFam: 0 };
   const kidsState = { indoor: "all", age: "all" };
+  const natureState = { region: "all", type: "all" };
+  const coastState = { country: "all", type: "all" };
+  const REGIONS = { tampere: "Tampere & Häme", pori: "Yyteri & Pori", jyvaskyla: "Jyväskylä",
+    savonlinna: "Savonlinna", punkaharju: "Punkaharju", porvoo: "Porvoo",
+    hanko: "Tammisaari & Hanko", lappeenranta: "Lappeenranta & Imatra" };
+  const COUNTRIES = { ee: "Estonia mainland", saaremaa: "Saaremaa & Muhu", lv: "Latvia", lt: "Lithuania" };
+  const NTYPES = { nature: "Parks", trail: "Trails", beach: "Beaches", cliff: "Cliffs & rocks", viewpoint: "Viewpoints" };
   const mapState = { cat: "all" };
 
   function chip(label, attr, val, on) {
@@ -200,6 +217,18 @@
       chip("Outside", "data-kin", "out", kidsState.indoor === "out") +
       chip("Free", "data-kage", "free", kidsState.age === "free") +
       chip("Toddler-proof", "data-kage", "baby", kidsState.age === "baby");
+    const n = $("#naturefilters");
+    if (n) n.innerHTML = chip("Everywhere", "data-nreg", "all", natureState.region === "all") +
+      Object.entries(REGIONS).map(([k, v]) => chip(v, "data-nreg", k, natureState.region === k)).join("");
+    const nt = $("#naturetypes");
+    if (nt) nt.innerHTML = chip("All types", "data-ntype", "all", natureState.type === "all") +
+      Object.entries(NTYPES).map(([k, v]) => chip(v, "data-ntype", k, natureState.type === k)).join("");
+    const co = $("#coastfilters");
+    if (co) co.innerHTML = chip("Whole coast", "data-ccou", "all", coastState.country === "all") +
+      Object.entries(COUNTRIES).map(([k, v]) => chip(v, "data-ccou", k, coastState.country === k)).join("");
+    const ct = $("#coasttypes");
+    if (ct) ct.innerHTML = chip("All types", "data-ctype", "all", coastState.type === "all") +
+      Object.entries(NTYPES).map(([k, v]) => chip(v, "data-ctype", k, coastState.type === k)).join("");
     const m = $("#mapfilters");
     if (m) m.innerHTML = chip("All", "data-mcat", "all", mapState.cat === "all") +
       Object.keys(CAT).map(x => chip(icon(x) + " " + CAT[x].label, "data-mcat", x, mapState.cat === x)).join("");
@@ -209,6 +238,8 @@
     const c = t.closest("[data-fcat]"), d = t.closest("[data-day]"), k = t.closest("[data-minKid]");
     const ek = t.closest("[data-ekind]"), em = t.closest("[data-emax]");
     const kin = t.closest("[data-kin]"), kage = t.closest("[data-kage]");
+    const nreg = t.closest("[data-nreg]"), ntype = t.closest("[data-ntype]");
+    const ccou = t.closest("[data-ccou]"), ctype = t.closest("[data-ctype]");
     const mc = t.closest("[data-mcat]"), so = t.closest("[data-sort]");
     if (c) { listState.cat = c.dataset.fcat; buildChips(); renderList(); }
     if (d) { listState.day = d.dataset.day; buildChips(); renderList(); }
@@ -216,6 +247,10 @@
     if (ek) { eatState.kind = ek.dataset.ekind; buildChips(); renderEat(); }
     if (em) { eatState.maxFam = +em.dataset.emax === eatState.maxFam ? 0 : +em.dataset.emax; buildChips(); renderEat(); }
     if (kin) { kidsState.indoor = kin.dataset.kin; buildChips(); renderKids(); }
+    if (nreg) { natureState.region = nreg.dataset.nreg; buildChips(); renderNature(); }
+    if (ntype) { natureState.type = ntype.dataset.ntype; buildChips(); renderNature(); }
+    if (ccou) { coastState.country = ccou.dataset.ccou; buildChips(); renderCoast(); }
+    if (ctype) { coastState.type = ctype.dataset.ctype; buildChips(); renderCoast(); }
     if (kage) { kidsState.age = kidsState.age === kage.dataset.kage ? "all" : kage.dataset.kage; buildChips(); renderKids(); }
     if (mc) { mapState.cat = mc.dataset.mcat; buildChips(); renderMap(); fitAll(); }
     if (so) { listState.sort = so.dataset.sort; renderList(); }
@@ -266,6 +301,28 @@
   if (q) {
     let t;
     q.addEventListener("input", () => { clearTimeout(t); t = setTimeout(() => { listState.q = q.value.trim(); renderList(); }, 110); });
+  }
+
+  /* ---------- nature & coast ---------- */
+  function renderNature() {
+    let rows = PLACES.filter(p => p.scope === "fi" && NTYPES[p.cat]);
+    if (natureState.region !== "all") rows = rows.filter(p => p.region === natureState.region);
+    if (natureState.type !== "all") rows = rows.filter(p => p.cat === natureState.type);
+    rows.sort((a, b) => a.km - b.km || byKid(a, b));
+    const c = $("#naturecount");
+    if (c) c.textContent = rows.length + " places · nearest to the flat first · " +
+      (natureState.region === "all" ? "all of Finland" : REGIONS[natureState.region]);
+    mount($("#naturelist"), rows, "nature");
+  }
+  const COAST_ORDER = { ee: 0, saaremaa: 1, lv: 2, lt: 3 };
+  function renderCoast() {
+    let rows = PLACES.filter(p => p.scope === "baltic");
+    if (coastState.country !== "all") rows = rows.filter(p => p.region === coastState.country);
+    if (coastState.type !== "all") rows = rows.filter(p => p.cat === coastState.type);
+    rows.sort((a, b) => (COAST_ORDER[a.region] ?? 9) - (COAST_ORDER[b.region] ?? 9) || b.lat - a.lat);
+    const c = $("#coastcount");
+    if (c) c.textContent = rows.length + " places · ordered along the drive home, north to south";
+    mount($("#coastlist"), rows, "coast");
   }
 
   /* ---------- map ---------- */
@@ -386,6 +443,8 @@
   renderList();
   renderEat();
   renderKids();
+  renderNature();
+  renderCoast();
   const h = location.hash.replace("#", "");
   if (h && document.getElementById(h)) show(h);
   else if (h && h.startsWith("r-")) show("places");

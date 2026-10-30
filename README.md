@@ -3,8 +3,10 @@
 A nine-day family trip for two adults and three daughters (9, 7 and 9 months), as a single static page.
 Same architecture and depth as the Gdańsk trip, different visual language: paper, birch and berry, serif headlines, a daylight bar on every day.
 
-- **102 places** — sights, museums, nature, indoor play, day trips, cheap food, work spots, and the drive home through Estonia and Latvia
-- **45 live Google Maps ratings**, read directly on 30 Oct 2026
+- **197 places** — sights, museums, indoor play, day trips, cheap food, work spots, and the drive home through Estonia, Latvia and Lithuania
+- **85 live Google Maps ratings**, read directly on 30 Oct 2026
+- **Nature tab** — 43 trails, national parks, cliffs and beaches around the seven Finnish towns on the wish list (Yyteri, Jyväskylä, Savonlinna, Punkaharju, Porvoo, Tammisaari & Hanko, Lappeenranta & Imatra), filterable by region
+- **Coast tab** — 39 cliffs, boulders, dunes and beaches from Tallinn to Klaipėda, including Saaremaa and Muhu, ordered along the drive home
 - **Cost for all five** on every row, not a per-person guess
 - **Kid-o-meter** (1–5) instead of a generic star rating: how much a 9- and a 7-year-old actually enjoy it
 - **Nine day cards** with real sunrise/sunset, a daylight bar and the baby's nap windows
@@ -33,6 +35,8 @@ data/tampere.json   Tampere core (museums, nature, play, practical)
 data/food.json      restaurants, cafés, market counters
 data/trips.json     day trips from Tampere
 data/route.json     Helsinki, Tallinn, Pärnu, Riga, Lithuania
+data/nature_finland.json  trails, parks, cliffs, beaches near the seven Finnish towns
+data/coast_baltic.json    Baltic coast: klint cliffs, boulders, dunes, beaches, Saaremaa
 data/days.json      the nine-day itinerary, timeline by timeline
 data/raw/           raw sources: OSM POIs and the geocoded place list
 src/style.css       the design system

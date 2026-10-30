@@ -10,7 +10,8 @@ SUB = "Vilnius → Tallinn → Tampere · 31 Oct – 8 Nov 2026"
 def load(p):
     return json.load(open(ROOT / "data" / p, encoding="utf-8"))
 
-places = load("tampere.json") + load("food.json") + load("trips.json") + load("route.json")
+places = (load("tampere.json") + load("food.json") + load("trips.json") + load("route.json")
+          + load("nature_finland.json") + load("coast_baltic.json"))
 days = load("days.json")
 
 # ---- home marker ----
@@ -156,6 +157,10 @@ n_total = len(places)
 n_rated = len([p for p in places if p.get("rating")])
 n_free = len([p for p in places if p.get("famNum") == 0])
 n_food = len([p for p in places if p["cat"] in ("eat", "cafe")])
+NATURE_CATS = ("nature", "trail", "beach", "cliff", "viewpoint")
+n_nature = len([p for p in places if p.get("scope") == "fi" and p["cat"] in NATURE_CATS])
+n_coast = len([p for p in places if p.get("scope") == "baltic"])
+anchor_rows = """<tr><td><b>Yyteri & Pori</b></td><td>Yyteri Beach, then Reposaari</td><td class="num">a full day</td><td class="num">117 km</td></tr><tr><td><b>Jyväskylä</b></td><td>Tourujoki trail, then Laajavuori</td><td class="num">half a day</td><td class="num">133 km</td></tr><tr><td><b>Savonlinna</b></td><td>The castle, then the Pihlajavesi shore</td><td class="num">a full day</td><td class="num">276 km</td></tr><tr><td><b>Punkaharju</b></td><td>The ridge road at sunset</td><td class="num">2 hours</td><td class="num">300 km</td></tr><tr><td><b>Porvoo</b></td><td>Old town, then Sipoonkorpi</td><td class="num">3 hours</td><td class="num">162 km</td></tr><tr><td><b>Tammisaari & Hanko</b></td><td>Tulliniemi point + Hanko beach</td><td class="num">half a day</td><td class="num">193 km</td></tr><tr><td><b>Lappeenranta & Imatra</b></td><td>Imatrankoski, then Repovesi</td><td class="num">a full day</td><td class="num">272 km</td></tr>"""
 
 PACKING = [
     "Passports for all five (the baby needs her own)",
@@ -180,13 +185,16 @@ PACKING = [
 css = (ROOT / "src/style.css").read_text(encoding="utf-8")
 app = (ROOT / "src/app.js").read_text(encoding="utf-8")
 
-NAV = [("plan", "Plan", "plan"), ("route", "Route", "car"), ("map", "Map", "pin"),
+NAV = [("plan", "Plan", "plan"), ("route", "Route", "car"),
+       ("nature", "Nature", "trail"), ("coast", "Coast", "beach"), ("map", "Map", "pin"),
        ("places", "Places", "see"), ("kids", "Kids", "play"), ("eat", "Eat", "eat"),
        ("work", "Work", "work"), ("costs", "Costs", "euro"), ("info", "Info", "practical")]
 PATHS = {
     "plan": '<path d="M4 5h16M4 12h16M4 19h10"/>',
     "car": '<path d="M5 17h14M6.5 17V13l1.8-4.5h7.4L17.5 13v4M7 17v1.6M17 17v1.6"/><circle cx="8" cy="14.6" r=".8"/><circle cx="16" cy="14.6" r=".8"/>',
     "pin": '<path d="M12 21.4s7-6.6 7-11.4a7 7 0 10-14 0c0 4.8 7 11.4 7 11.4z"/><circle cx="12" cy="10" r="2.5"/>',
+    "trail": '<path d="M4 20c4-1 4-6 8-7s4-6 8-7"/><circle cx="6" cy="20" r="1.5"/><circle cx="18" cy="6" r="1.5"/>',
+    "beach": '<path d="M2 18c2 0 2-2 4-2s2 2 4 2 2-2 4-2 2 2 4 2 2-2 4-2M2 22c2 0 2-2 4-2s2 2 4 2 2-2 4-2 2 2 4 2 2-2 4-2"/><circle cx="17" cy="6" r="3"/>',
     "see": '<path d="M3 21h18M4 21V10m5 11V10m6 11V10m5 11V10M2 10L12 3l10 7"/>',
     "play": '<circle cx="12" cy="7" r="3"/><path d="M6 21v-4a6 6 0 0112 0v4M9.5 4.6L12 7l2.5-2.4"/>',
     "eat": '<path d="M6 3v8a2.4 2.4 0 004.8 0V3M8.4 11v10M16.6 3c-1.6 1.6-2.2 3.3-2.2 5.5s.6 3.9 2.2 5.5V21"/>',
@@ -241,7 +249,7 @@ HTML = f"""<!DOCTYPE html>
       <div class="chips">
         <span class="chip">{navicon("see")} {n_total} places, {n_rated} rated</span>
         <span class="chip">{navicon("euro")} {n_free} free places</span>
-        <span class="chip">{navicon("car")} ≈1,950 km driven</span>
+        <span class="chip">{navicon("car")} ≈1,950 km core route</span>
         <span class="chip">{navicon("practical")} 0–7 °C</span>
       </div>
     </div>
@@ -373,6 +381,99 @@ HTML = f"""<!DOCTYPE html>
           <dt>Fuel</dt><dd>≈€1.70 / l</dd>
         </dl>
         <p class="tiny mut" style="margin:6px 0 0">Buy a parking disc at any petrol station on day one. Fines are €40 and they are enforced.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============ NATURE ============ -->
+<section class="page" id="nature">
+  <div class="wrap">
+    <h2>Nature</h2>
+    <p class="small mut">Trails, national parks, cliffs and beaches around the seven Finnish places on your list — from the ridge beside the flat to the eskers of Punkaharju. {n_nature} places, all with real coordinates.</p>
+
+    <div class="callout info"><b>How these fit.</b> Yyteri is a day trip from Tampere. Jyväskylä is a half-day drive. Savonlinna, Punkaharju, Lappeenranta and Imatra make a 2–3 day eastern loop. Porvoo, Tammisaari and Hanko sit on the drive home between Tampere and Helsinki. Distances in each row are straight-line from the flat.</div>
+
+    <div class="flabel">Region</div>
+    <div class="fbar" id="naturefilters"></div>
+    <div class="flabel">Type of place</div>
+    <div class="fbar" id="naturetypes"></div>
+    <div class="count" id="naturecount"></div>
+    <div id="naturelist"></div>
+
+    <div class="card" style="margin-top:16px">
+      <h3>If you only have one day in each place</h3>
+      <div class="tw"><table>
+        <thead><tr><th>Place</th><th>Do this</th><th>Time</th><th>From Tampere</th></tr></thead>
+        <tbody>{anchor_rows}</tbody>
+      </table></div>
+      <p class="tiny mut" style="margin:8px 0 0">Chosen for what a 9- and a 7-year-old will remember, not for what is closest.</p>
+    </div>
+
+    <div class="grid g2">
+      <div class="card tight"><h3>Best with small children</h3>
+        <ul class="small" style="margin:0;padding-left:16px">
+          <li><b>Punkaharju ridge</b> — water on both sides, flat, free</li>
+          <li><b>Ķemeri bog boardwalk</b> — 3.4 km, pram-friendly</li>
+          <li><b>Torronsuo</b> — duckboards to a bird tower</li>
+          <li><b>Yyteri beach</b> — 6 km of sand</li>
+          <li><b>Kaali crater</b> — walk the rim</li>
+        </ul></div>
+      <div class="card tight"><h3>Best for the 9-year-old</h3>
+        <ul class="small" style="margin:0;padding-left:16px">
+          <li><b>Repovesi</b> — the hand-pulled rope ferry</li>
+          <li><b>Kummakivi</b> — a 500-tonne rock on a thread</li>
+          <li><b>Parnidis dune</b> — 52 m of sand</li>
+          <li><b>Kiipsaare lighthouse</b> — leaning into the sea</li>
+          <li><b>Kintulammi</b> — fire and sausages</li>
+        </ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COAST ============ -->
+<section class="page" id="coast">
+  <div class="wrap">
+    <h2>Baltic coast</h2>
+    <p class="small mut">The cliffs, boulders, dunes and beaches on the way home — Estonia, Saaremaa and Muhu, Latvia, Lithuania. {n_coast} places, ordered along the drive from Tallinn to Klaipėda.</p>
+
+    <div class="callout good"><b>What is actually worth stopping for.</b> Two things here are world class: the <b>Curonian Spit</b> (Nida, Parnidis dune, Juodkrantė) and the <b>Estonian klint</b> (Pakri, Türisalu, Panga). Everything else is a good beach or a good bog.</div>
+
+    <div class="flabel">Country</div>
+    <div class="fbar" id="coastfilters"></div>
+    <div class="flabel">Type of place</div>
+    <div class="fbar" id="coasttypes"></div>
+    <div class="count" id="coastcount"></div>
+    <div id="coastlist"></div>
+
+    <div class="card" style="margin-top:16px">
+      <h3>Cliffs and high places, ranked</h3>
+      <div class="tw"><table>
+        <thead><tr><th>Place</th><th>Height</th><th>Where</th><th>Worth the detour?</th></tr></thead>
+        <tbody>
+          <tr class="hi"><td><b>Parnidis dune</b></td><td class="num">52 m</td><td>Nida, Lithuania</td><td><span class="yes">YES</span> — the best single sight on the coast</td></tr>
+          <tr><td><b>Pakri pank</b></td><td class="num">25 m</td><td>Paldiski, Estonia</td><td><span class="yes">YES</span> — an hour from Tallinn</td></tr>
+          <tr><td><b>Olando Kepurė</b></td><td class="num">24 m</td><td>Karklė, Lithuania</td><td>Yes — 20 min from Klaipėda</td></tr>
+          <tr><td><b>Panga pank</b></td><td class="num">21 m</td><td>Saaremaa</td><td><span class="yes">YES</span> — the best on the island</td></tr>
+          <tr><td><b>Türisalu pank</b></td><td class="num">20 m</td><td>Harku, Estonia</td><td>Yes — closest cliff to Tallinn</td></tr>
+          <tr><td><b>Saulkrasti White Dune</b></td><td class="num">18 m</td><td>Latvia</td><td>Yes — 45 min from Riga</td></tr>
+          <tr><td><b>Üügu pank</b></td><td class="num">10 m</td><td>Muhu, Estonia</td><td>For the fossils, not the height</td></tr>
+          <tr><td><b>Ehalkivi</b></td><td class="num">7 m tall</td><td>Letipea, Estonia</td><td>A 930-tonne boulder, not a cliff</td></tr>
+        </tbody></table></div>
+    </div>
+
+    <div class="grid g2">
+      <div class="card tight"><h3>Beaches, best first</h3>
+        <ol class="small" style="margin:0;padding-left:16px">
+          <li><b>Jūrmala</b> — 33 km of white sand, 30 min from Riga</li>
+          <li><b>Palanga</b> — pier over the open sea</li>
+          <li><b>Smiltynė / Nida</b> — the spit, pines to the water</li>
+          <li><b>Yyteri</b> — the Finnish one, 6 km of dunes</li>
+          <li><b>Hanko</b> — long, shallow, empty in November</li>
+        </ol></div>
+      <div class="card tight"><h3>November reality check</h3>
+        <p class="small">Every beach here is a <b>walk</b>, not a swim: water 4–7 °C, air 3–6 °C, sunset 16:15. Cliffs are best in wind and low light; bogs are best in mist. The Curonian Spit road stays open all year and is empty — the best stop on the whole return leg.</p>
+        <p class="tiny mut" style="margin:0">Ferries to Saaremaa run all year. Boats to Vilsandi, Abruka and Bengtskär are summer only.</p></div>
     </div>
   </div>
 </section>

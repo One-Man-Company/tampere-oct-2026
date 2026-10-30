@@ -173,6 +173,7 @@ section.page.on>.wrap{animation:rise .28s ease}
 .search{width:100%;padding:9px 12px;border-radius:9px;border:1px solid var(--line);background:var(--card);
   color:var(--ink);font:inherit;font-size:14px;outline:none;margin-bottom:7px}
 .search:focus{border-color:var(--indigo)}
+.flabel{font-size:9.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:750;margin:8px 0 1px}
 .fbar{display:flex;gap:5px;overflow-x:auto;scrollbar-width:none;padding:2px 0 6px}
 .fbar::-webkit-scrollbar{display:none}
 .fchip{white-space:nowrap;padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:var(--card);
