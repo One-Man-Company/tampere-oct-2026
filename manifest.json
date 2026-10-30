@@ -1,0 +1,16 @@
+{
+ "name": "Perhe-reissu \u2014 Tampere",
+ "short_name": "Perhe-reissu",
+ "start_url": "./index.html",
+ "display": "standalone",
+ "background_color": "#fbf8f2",
+ "theme_color": "#254a6b",
+ "icons": [
+  {
+   "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Ccircle cx='96' cy='96' r='92' fill='%23254a6b'/%3E%3Ctext x='96' y='132' font-size='104' font-family='Georgia,serif' fill='%23fff' text-anchor='middle'%3ET%3C/text%3E%3C/svg%3E",
+   "sizes": "192x192",
+   "type": "image/svg+xml",
+   "purpose": "any"
+  }
+ ]
+}

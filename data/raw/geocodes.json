@@ -1,0 +1,844 @@
+{
+"muumimuseo": {
+"name": "Muumimuseo",
+"city": "Manner-Suomi",
+"lat": 61.49607,
+"lon": 23.7829,
+"disp": "Muumimuseo, 55, Yliopistonkatu, Tulli, Keskustan suuralue, Tampere, Tampereen se",
+"typ": "museum"
+},
+"vapriikki": {
+"name": "Museokeskus Vapriikki",
+"city": "Manner-Suomi",
+"lat": 61.50298,
+"lon": 23.76015,
+"disp": "Museokeskus Vapriikki, 5, Alaverstaanraitti, Ranta-Tampella, Tampella, Keskustan",
+"typ": "museum"
+},
+"tuomiokirkko": {
+"name": "Tampereen tuomiokirkko",
+"city": "Manner-Suomi",
+"lat": 61.50252,
+"lon": 23.76983,
+"disp": "Tampereen tuomiokirkko, 3, Tuomiokirkonkatu, Jussinkylä, Keskustan suuralue, Tam",
+"typ": "place_of_worship"
+},
+"kalevankirkko": {
+"name": "Kalevan kirkko",
+"city": "Manner-Suomi",
+"lat": 61.49913,
+"lon": 23.79396,
+"disp": "Kalevan kirkko, 1, Liisanpuisto, Liisankallio, Keskustan suuralue, Tampere, Tamp",
+"typ": "place_of_worship"
+},
+"metso": {
+"name": "Tampereen pääkirjasto Metso",
+"city": "Manner-Suomi",
+"lat": 61.49818,
+"lon": 23.75052,
+"disp": "Tampereen pääkirjasto Metso, 2, Pirkankatu, Amuri B, Keskustan suuralue, Tampere",
+"typ": "library"
+},
+"kauppahalli": {
+"name": "Tampereen kauppahalli",
+"city": "Manner-Suomi",
+"lat": 61.49693,
+"lon": 23.75879,
+"disp": "Tampereen kauppahalli, 19, Hämeenkatu, Tammerkoski, Keskustan suuralue, Tampere,",
+"typ": "marketplace"
+},
+"tammelantori": {
+"name": "Tammelantori",
+"city": "Manner-Suomi",
+"lat": 61.50171,
+"lon": 23.77875,
+"disp": "Tammelantori, Tammela, Tammela B, Keskustan suuralue, Tampere, Tampereen seutuku",
+"typ": "marketplace"
+},
+"laukontori": {
+"name": "Laukontori",
+"city": "Pirkanmaa",
+"lat": 61.49492,
+"lon": 23.76015,
+"disp": "Laukontori, Nalkala, Keskustan suuralue, Tampere, Tampereen seutukunta, Pirkanma",
+"typ": "square"
+},
+"keskustori": {
+"name": "Keskustori",
+"city": "Pirkanmaa",
+"lat": 61.49802,
+"lon": 23.76083,
+"disp": "Keskustori, Tammerkoski, Keskustan suuralue, Tampere, Tampereen seutukunta, Pirk",
+"typ": "square"
+},
+"pyynikki": {
+"name": "Pyynikin näkötorni",
+"city": "Manner-Suomi",
+"lat": 61.49638,
+"lon": 23.73196,
+"disp": "Pyynikin näkötorni, Pyynikin portaat, Pyynikki, Keskustan suuralue, Tampere, Tam",
+"typ": "tower"
+},
+"pispala": {
+"name": "Pispalanharju",
+"city": "Manner-Suomi",
+"lat": 61.50244,
+"lon": 23.71493,
+"disp": "Pispalanharju, Tampere, Tampereen seutukunta, Pirkanmaa, Manner-Suomi, 33250, Su",
+"typ": "peak"
+},
+"nasinneula": {
+"name": "Näsinneula",
+"city": "Manner-Suomi",
+"lat": 61.50497,
+"lon": 23.74329,
+"disp": "Näsinneula, Särkänniemenraitti, Onkiniemi, Särkänniemi, Keskustan suuralue, Tamp",
+"typ": "tower"
+},
+"sarkanniemi": {
+"name": "Särkänniemi",
+"city": "Manner-Suomi",
+"lat": 61.50502,
+"lon": 23.74257,
+"disp": "Särkänniemi, 3, Särkänniemenraitti, Onkiniemi, Särkänniemi, Keskustan suuralue, ",
+"typ": "theme_park"
+},
+"hatanpaa": {
+"name": "Hatanpään kartano",
+"city": "Manner-Suomi",
+"lat": 61.48338,
+"lon": 23.75085,
+"disp": "Hatanpään kartano, 1, Hatanpään puistokuja, Vihilahti, Hatanpää, Keskustan suura",
+"typ": "manor"
+},
+"kalevankangas": {
+"name": "Kalevankankaan hautausmaa",
+"city": "Pirkanmaa",
+"lat": 61.49377,
+"lon": 23.79519,
+"disp": "Kalevankankaan hautausmaa, Kalevanharju, Keskustan suuralue, Tampere, Tampereen ",
+"typ": "cemetery"
+},
+"finlayson": {
+"name": "Finlayson",
+"city": "Pirkanmaa",
+"lat": 61.50193,
+"lon": 23.75545,
+"disp": "Finlayson, Keskustan suuralue, Tampere, Tampereen seutukunta, Pirkanmaa, Manner-",
+"typ": "administrative"
+},
+"tallipiha": {
+"name": "Tallipiha",
+"city": "Manner-Suomi",
+"lat": 61.50336,
+"lon": 23.75455,
+"disp": "Tallipiha, 4, Kuninkaankatu, Finlayson, Keskustan suuralue, Tampere, Tampereen s",
+"typ": "attraction"
+},
+"werstas": {
+"name": "Työväenmuseo Werstas",
+"city": "Manner-Suomi",
+"lat": 61.50149,
+"lon": 23.75932,
+"disp": "Työväenmuseo Werstas, 8, Väinö Linnan aukio, Finlayson, Keskustan suuralue, Tamp",
+"typ": "museum"
+},
+"vakoilumuseo": {
+"name": "Vakoilumuseo",
+"city": "Manner-Suomi",
+"lat": 61.5011,
+"lon": 23.76102,
+"disp": "Vakoilumuseo, 18, Satakunnankatu, Tammerkoski, Keskustan suuralue, Tampere, Tamp",
+"typ": "museum"
+},
+"milavida": {
+"name": "Museo Milavida",
+"city": "Manner-Suomi",
+"lat": 61.50404,
+"lon": 23.75249,
+"disp": "Museo Milavida, 8, Milavidanrinne, Finlayson, Keskustan suuralue, Tampere, Tampe",
+"typ": "museum"
+},
+"amuri": {
+"name": "Amurin työläismuseokortteli",
+"city": "Manner-Suomi",
+"lat": 61.49914,
+"lon": 23.74343,
+"disp": "Amurin työläismuseokortteli, 49, Satakunnankatu, Amuri B, Keskustan suuralue, Ta",
+"typ": "museum"
+},
+"uintikeskus": {
+"name": "Tampereen uintikeskus",
+"city": "Manner-Suomi",
+"lat": 61.49908,
+"lon": 23.80532,
+"disp": "Tampereen uintikeskus, 7, Joukahaisenkatu, Kaleva, Keskustan suuralue, Tampere, ",
+"typ": "sports_centre"
+},
+"pyynikin_uimahalli": {
+"name": "Pyynikin uimahalli",
+"city": "Manner-Suomi",
+"lat": 61.49795,
+"lon": 23.74593,
+"disp": "Pyynikin uimahalli, 26, Kortelahdenkatu, Amuri B, Keskustan suuralue, Tampere, T",
+"typ": "sports_centre"
+},
+"leos_pirkkala": {
+"name": "Leos",
+"city": "New York",
+"lat": 40.70347,
+"lon": -73.92631,
+"disp": "Leos, 207, Knickerbocker Avenue, Bushwick, Brooklyn, Kings County, New York, 112",
+"typ": "fast_food"
+},
+"koskikeskus": {
+"name": "Koskikeskus",
+"city": "Manner-Suomi",
+"lat": 61.49584,
+"lon": 23.76697,
+"disp": "Koskikeskus, 1, Hatanpään valtatie, Kyttälä B, Keskustan suuralue, Tampere, Tamp",
+"typ": "mall"
+},
+"ratina": {
+"name": "Tampereen stadion",
+"city": "Manner-Suomi",
+"lat": 61.49267,
+"lon": 23.76606,
+"disp": "Tampereen stadion, 1, Ratinan rantatie, Ratinanranta, Ratina, Keskustan suuralue",
+"typ": "stadium"
+},
+"kauppi": {
+"name": "Kauppi",
+"city": "Manner-Suomi",
+"lat": 61.50738,
+"lon": 23.81512,
+"disp": "Kauppi, Keskustan suuralue, Tampere, Tampereen seutukunta, Pirkanmaa, Manner-Suo",
+"typ": "administrative"
+},
+"kintulammi": {
+"name": "Kintulammi",
+"city": "Pirkanmaa",
+"lat": 61.59528,
+"lon": 23.96165,
+"disp": "Kintulammi, Kämmenniemi, Pohjoinen suuralue, Tampere, Tampereen seutukunta, Pirk",
+"typ": "water"
+},
+"niihama": {
+"name": "Niihaman ulkoilumaja",
+"city": "Manner-Suomi",
+"lat": 61.5187,
+"lon": 23.87359,
+"disp": "Niihaman ulkoilumaja, 80, Pikku-Niihamantie, Metsäkulma, Niihama, Koillinen suur",
+"typ": "cafe"
+},
+"suolijarvi": {
+"name": "Suolijärvi",
+"city": "Kanta-Häme",
+"lat": 61.12916,
+"lon": 24.82635,
+"disp": "Suolijärvi, Sairiala, Hämeenlinna, Hämeenlinnan seutukunta, Kanta-Häme, Manner-S",
+"typ": "water"
+},
+"ahvenisto": {
+"name": "Ahvenisto",
+"city": "Kanta-Häme",
+"lat": 61.16272,
+"lon": 25.1933,
+"disp": "Ahvenisto, Lammi, Hämeenlinna, Hämeenlinnan seutukunta, Kanta-Häme, Manner-Suomi",
+"typ": "water"
+},
+"rauhaniemi": {
+"name": "Rauhaniemi",
+"city": "Manner-Suomi",
+"lat": 60.36815,
+"lon": 22.20486,
+"disp": "Rauhaniemi, Kakskerta, Hirvensalo-Kakskerta, Turku, Turun seutukunta, Varsinais-",
+"typ": "isolated_dwelling"
+},
+"santalahti": {
+"name": "Santalahti",
+"city": "Pirkanmaa",
+"lat": 61.50564,
+"lon": 23.71447,
+"disp": "Santalahti, Luoteinen suuralue, Tampere, Tampereen seutukunta, Pirkanmaa, Manner",
+"typ": "administrative"
+},
+"arboretum": {
+"name": "Arboretum",
+"city": "Manner-Suomi",
+"lat": 61.48106,
+"lon": 23.76324,
+"disp": "Arboretum, Hatanpään valtatie, Vihilahti, Hatanpää, Keskustan suuralue, Tampere,",
+"typ": "construction"
+},
+"nokia_arena": {
+"name": "Nokia Arena",
+"city": "Manner-Suomi",
+"lat": 61.49363,
+"lon": 23.77393,
+"disp": "Nokia Arena, 3, Kansikatu, Kalevanharju, Keskustan suuralue, Tampere, Tampereen ",
+"typ": "stadium"
+},
+"koskipuisto": {
+"name": "Koskipuisto",
+"city": "Pirkanmaa",
+"lat": 61.49941,
+"lon": 23.7655,
+"disp": "Koskipuisto, Kyttälä, Kyttälä A, Keskustan suuralue, Tampere, Tampereen seutukun",
+"typ": "park"
+},
+"hameenlinna": {
+"name": "Hämeen linna",
+"city": "Manner-Suomi",
+"lat": 61.00363,
+"lon": 24.46,
+"disp": "Hämeen linna, Kustaa III:n katu, Keskusta 1, Keskusta, Hämeenlinna, Hämeenlinnan",
+"typ": "castle"
+},
+"aulanko": {
+"name": "Aulangon näkötorni",
+"city": "Manner-Suomi",
+"lat": 61.0223,
+"lon": 24.46962,
+"disp": "Aulangon näkötorni, Karhuluolan portaat, Aulanko, Hämeenlinna, Hämeenlinnan seut",
+"typ": "viewpoint"
+},
+"vehoniemi": {
+"name": "Vehoniemen automuseo",
+"city": "Manner-Suomi",
+"lat": 61.40845,
+"lon": 24.15749,
+"disp": "Vehoniemen automuseo, 92, Vehoniemenharjuntie, Raikku, Vehoniemenkylä, Kangasala",
+"typ": "museum"
+},
+"kangasala": {
+"name": "Kirkkoharju",
+"city": "Manner-Suomi",
+"lat": 61.46655,
+"lon": 24.06051,
+"disp": "Kirkkoharju, Kangasala, Tampereen seutukunta, Pirkanmaa, Manner-Suomi, 36200, Su",
+"typ": "peak"
+},
+"serlachius": {
+"miss": 1
+},
+"visavuori": {
+"name": "Visavuori",
+"city": "Manner-Suomi",
+"lat": 61.17507,
+"lon": 24.02156,
+"disp": "Visavuori, Visavuorentie, Päivölä, Tarttila, Valkeakoski, Etelä-Pirkanmaan seutu",
+"typ": "museum"
+},
+"seitseminen": {
+"name": "Seitsemisen kansallispuisto",
+"city": "Manner-Suomi",
+"lat": 61.92892,
+"lon": 23.42722,
+"disp": "Seitsemisen kansallispuisto, 110, Ylöjärvi, Tampereen seutukunta, Pirkanmaa, Man",
+"typ": "national_park"
+},
+"helvetinjarvi": {
+"name": "Helvetinjärven kansallispuisto",
+"city": "Pirkanmaa",
+"lat": 62.02636,
+"lon": 23.80263,
+"disp": "Helvetinjärven kansallispuisto, Ruovesi, Ylä-Pirkanmaan seutukunta, Pirkanmaa, M",
+"typ": "national_park"
+},
+"ideapark": {
+"name": "Ideapark Lempäälä",
+"city": "Manner-Suomi",
+"lat": 61.36175,
+"lon": 23.79515,
+"disp": "Ideapark Lempäälä, 4, Ideaparkinkatu, Saikka, Ruskea-ahde, Moisio, Kuivaspää, Le",
+"typ": "mall"
+},
+"heureka": {
+"name": "Tiedekeskus Heureka",
+"city": "Manner-Suomi",
+"lat": 60.2875,
+"lon": 25.04047,
+"disp": "Tiedekeskus Heureka, 7, Kuninkaalantie, Väritehdas, Heidehof, Kuninkaala, Tikkur",
+"typ": "museum"
+},
+"korkeasaari": {
+"name": "Korkeasaari",
+"city": "Uusimaa",
+"lat": 60.17379,
+"lon": 24.98382,
+"disp": "Korkeasaari, Mustikkamaa-Korkeasaari, Kaakkoinen suurpiiri, Helsinki, Helsingin ",
+"typ": "island"
+},
+"suomenlinna": {
+"name": "Suomenlinna",
+"city": "Manner-Suomi",
+"lat": 60.14439,
+"lon": 24.9854,
+"disp": "Suomenlinna, Eteläinen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Manne",
+"typ": "administrative"
+},
+"oodi": {
+"name": "Helsingin keskustakirjasto Oodi",
+"city": "Manner-Suomi",
+"lat": 60.17394,
+"lon": 24.93798,
+"disp": "Helsingin keskustakirjasto Oodi, 4, Töölönlahdenkatu, Keskusta, Kluuvi, Eteläine",
+"typ": "library"
+},
+"luonnontieteellinen": {
+"name": "Luonnontieteellinen museo",
+"city": "Manner-Suomi",
+"lat": 60.17144,
+"lon": 24.93122,
+"disp": "Luonnontieteellinen museo, 13, Pohjoinen Rautatiekatu, Leppäsuo, Etu-Töölö, Etel",
+"typ": "museum"
+},
+"kauppatori_helsinki": {
+"name": "Kauppatori",
+"city": "Uusimaa",
+"lat": 60.1672,
+"lon": 24.95326,
+"disp": "Kauppatori, Kaartinkaupunki, Eteläinen suurpiiri, Helsinki, Helsingin seutukunta",
+"typ": "pedestrian"
+},
+"tuomiokirkko_helsinki": {
+"name": "Helsingin tuomiokirkko",
+"city": "Manner-Suomi",
+"lat": 60.17042,
+"lon": 24.95218,
+"disp": "Helsingin tuomiokirkko, 29, Unioninkatu, Kaisaniemi, Kluuvi, Eteläinen suurpiiri",
+"typ": "place_of_worship"
+},
+"temppeliaukio": {
+"name": "Temppeliaukion kirkko",
+"city": "Manner-Suomi",
+"lat": 60.17296,
+"lon": 24.92523,
+"disp": "Temppeliaukion kirkko, 3, Lutherinkatu, Leppäsuo, Etu-Töölö, Eteläinen suurpiiri",
+"typ": "place_of_worship"
+},
+"sea_life": {
+"name": "Sea Life Helsinki",
+"city": "Manner-Suomi",
+"lat": 60.1891,
+"lon": 24.93896,
+"disp": "Sea Life Helsinki, 10, Tivolitie, Alppila, Alppiharju, Keskinen suurpiiri, Helsi",
+"typ": "aquarium"
+},
+"linnanmaki": {
+"name": "Linnanmäki",
+"city": "Manner-Suomi",
+"lat": 60.18823,
+"lon": 24.94036,
+"disp": "Linnanmäki, 1, Alppila, Alppiharju, Keskinen suurpiiri, Helsinki, Helsingin seut",
+"typ": "theme_park"
+},
+"aviation_museum": {
+"name": "Suomen ilmailumuseo",
+"city": "Manner-Suomi",
+"lat": 60.30427,
+"lon": 24.96094,
+"disp": "Suomen ilmailumuseo, 12, Karhumäentie, Aviapolis, Veromies, Aviapoliksen suuralu",
+"typ": "museum"
+},
+"tallinn_oldtown": {
+"name": "Raekoja plats",
+"city": "Tallinn",
+"lat": 59.43735,
+"lon": 24.74521,
+"disp": "Raekoja plats, All-linn, Vanalinn, Kesklinna linnaosa, Tallinn, Harju maakond, E",
+"typ": "square"
+},
+"lennusadam": {
+"name": "Lennusadam",
+"city": "Harju maakond",
+"lat": 59.45451,
+"lon": 24.73885,
+"disp": "Lennusadam, Vesilennuki, Noblessner, Kalamaja, Põhja-Tallinna linnaosa, Tallinn,",
+"typ": "marina"
+},
+"proto": {
+"name": "PROTO Avastustehas",
+"city": "Harju maakond",
+"lat": 59.45146,
+"lon": 24.73055,
+"disp": "PROTO Avastustehas, 10, Peetri, Noblessner, Kalamaja, Põhja-Tallinna linnaosa, T",
+"typ": "museum"
+},
+"tallinn_zoo": {
+"miss": 1
+},
+"tv_tower": {
+"name": "Tallinna teletorn",
+"city": "Harju maakond",
+"lat": 59.47119,
+"lon": 24.88744,
+"disp": "Tallinna teletorn, 58a, Kloostrimetsa tee, Kloostrimetsa, Pirita linnaosa, Talli",
+"typ": "attraction"
+},
+"kadriorg": {
+"name": "Kadriorg",
+"city": "Tallinn",
+"lat": 59.4368,
+"lon": 24.78446,
+"disp": "Kadriorg, Kesklinna linnaosa, Tallinn, Harju maakond, Eesti",
+"typ": "administrative"
+},
+"pirita": {
+"name": "Pirita",
+"city": "Alba",
+"lat": 46.13728,
+"lon": 23.15993,
+"disp": "Pirita, Zlatna, Alba, 516111, România",
+"typ": "village"
+},
+"balti_jaam": {
+"name": "Balti jaama turg",
+"city": "Harju maakond",
+"lat": 59.44109,
+"lon": 24.73528,
+"disp": "Balti jaama turg, Reisijate, Krulli kvartal, Kalamaja, Põhja-Tallinna linnaosa, ",
+"typ": "marketplace"
+},
+"telliskivi": {
+"name": "Telliskivi",
+"city": "Märjamaa vald",
+"lat": 59.03966,
+"lon": 24.45993,
+"disp": "Telliskivi, Varbola küla, Märjamaa vald, Rapla maakond, Eesti",
+"typ": "farmyard"
+},
+"parnu_beach": {
+"name": "Pärnu keskrand",
+"city": "Pärnu linn",
+"lat": 58.37388,
+"lon": 24.49649,
+"disp": "Pärnu keskrand, Pärnu linn, Pärnu maakond, Eesti",
+"typ": "beach"
+},
+"tervise_paradiis": {
+"name": "Tervise Paradiis",
+"city": "Pärnu maakond",
+"lat": 58.37376,
+"lon": 24.51055,
+"disp": "Tervise Paradiis, Papli, Rannarajoon, Pärnu linn, Pärnu maakond, 80017, Eesti",
+"typ": "bus_stop"
+},
+"riga_oldtown": {
+"name": "Rātslaukums",
+"city": "Rīga",
+"lat": 56.94749,
+"lon": 24.10673,
+"disp": "Rātslaukums, Vecrīga, Latgales apkaime, Rīga, LV-1050, Latvija",
+"typ": "square"
+},
+"riga_zoo": {
+"name": "Rīgas Nacionālais Zooloģiskais dārzs",
+"city": "Rīga",
+"lat": 57.00813,
+"lon": 24.16157,
+"disp": "Rīgas Nacionālais Zooloģiskais dārzs, Siguldas prospekts, Mežaparks, Centra apka",
+"typ": "zoo"
+},
+"livu": {
+"name": "Līvu akvaparks",
+"city": "Jūrmala",
+"lat": 56.97391,
+"lon": 23.86055,
+"disp": "Līvu akvaparks, 24, Viestura iela, Bulduri, Jūrmala, LV-2010, Latvija",
+"typ": "water_park"
+},
+"riga_motor": {
+"name": "Rīgas Motormuzejs",
+"city": "Rīga",
+"lat": 56.97061,
+"lon": 24.22777,
+"disp": "Rīgas Motormuzejs, 8, Sergeja Eizenšteina iela, Mežciems, Teikas apkaime, Rīga, ",
+"typ": "museum"
+},
+"ethno": {
+"name": "Latvijas Etnogrāfiskais brīvdabas muzejs",
+"city": "Rīga",
+"lat": 56.9906,
+"lon": 24.28021,
+"disp": "Latvijas Etnogrāfiskais brīvdabas muzejs, Laimas iela, Baloži, Berģi, Teikas apk",
+"typ": "museum"
+},
+"sigulda": {
+"name": "Gūtmaņala",
+"city": "Siguldas novads",
+"lat": 57.17591,
+"lon": 24.84233,
+"disp": "Gūtmaņala, Turaidas iela, Sigulda, Siguldas novads, LV-2150, Latvija",
+"typ": "board"
+},
+"cesis": {
+"name": "Cēsu pils komplekss",
+"city": "Cēsu novads",
+"lat": 57.31307,
+"lon": 25.27045,
+"disp": "Cēsu pils komplekss, Pumpura kvartāls, Dubinska, Cēsis, Cēsu novads, LV-4101, La",
+"typ": "castle"
+},
+"rundale": {
+"name": "Rundāles pils",
+"city": "Bauskas novads",
+"lat": 56.41365,
+"lon": 24.02443,
+"disp": "Rundāles pils, Pilsrundāle — Svitene — Klieņi, Pilsrundāle, Viesturu pagasts, Ba",
+"typ": "castle"
+},
+"bauska": {
+"name": "Bauskas pils",
+"city": "Bauskas novads",
+"lat": 56.4036,
+"lon": 24.17509,
+"disp": "Bauskas pils, Kurzemes hercoga rezidence, Elektriķi, Bauska, Bauskas novads, LV-",
+"typ": "castle"
+},
+"hill_of_crosses": {
+"name": "Kryžių kalnas",
+"city": "Šiaulių apskritis",
+"lat": 56.01503,
+"lon": 23.41568,
+"disp": "Kryžių kalnas, Piliakalnio g., Domantai, Meškuičių seniūnija, Šiaulių rajono sav",
+"typ": "attraction"
+},
+"trakai": {
+"name": "Trakų salos pilis",
+"city": "Vilniaus apskritis",
+"lat": 54.65273,
+"lon": 24.93392,
+"disp": "Trakų salos pilis, Trakų pilies tiltas, Senamiestis, Trakai, Trakų seniūnija, Tr",
+"typ": "castle"
+},
+"vilnius_oldtown": {
+"name": "Vilniaus Rotušė",
+"city": "Vilniaus apskritis",
+"lat": 54.67809,
+"lon": 25.2869,
+"disp": "Vilniaus Rotušė, 31, Didžioji g., Senamiestis, Senamiesčio seniūnija, Vilnius, V",
+"typ": "townhall"
+},
+"kcitymarket": {
+"name": "K-Citymarket",
+"city": "Manner-Suomi",
+"lat": 61.51488,
+"lon": 23.66649,
+"disp": "K-Citymarket, 7, Harjuntausta, Lielahti, Luoteinen suuralue, Tampere, Tampereen ",
+"typ": "supermarket"
+},
+"smarket": {
+"miss": 1
+},
+"prisma": {
+"name": "Prisma",
+"city": "Manner-Suomi",
+"lat": 61.51985,
+"lon": 23.66615,
+"disp": "Prisma, 2, Turvesuonkatu, Lielahti, Luoteinen suuralue, Tampere, Tampereen seutu",
+"typ": "supermarket"
+},
+"tapola": {
+"name": "Tapola Tammelantori",
+"city": "Manner-Suomi",
+"lat": 61.50135,
+"lon": 23.77832,
+"disp": "Tapola Tammelantori, 23, Pinninkatu, Tammela, Tammela B, Keskustan suuralue, Tam",
+"typ": "fast_food"
+},
+"vaakon_nakki": {
+"name": "Vaakon nakki",
+"city": "Manner-Suomi",
+"lat": 61.50451,
+"lon": 23.7126,
+"disp": "Vaakon nakki, 37, Pispalan valtatie, Ylä-Pispala, Pispala, Läntinen suuralue, Ta",
+"typ": "fast_food"
+},
+"plevna": {
+"name": "Plevna",
+"city": "Reno County",
+"lat": 37.97224,
+"lon": -98.30868,
+"disp": "Plevna, Reno County, Kansas, United States",
+"typ": "administrative"
+},
+"pancho": {
+"miss": 1
+},
+"napoli": {
+"miss": 1
+},
+"runo": {
+"name": "Kahvila Runo",
+"city": "Manner-Suomi",
+"lat": 61.50108,
+"lon": 23.76733,
+"disp": "Kahvila Runo, 3, Ojakatu, Kyttälä, Kyttälä A, Keskustan suuralue, Tampere, Tampe",
+"typ": "cafe"
+},
+"kaffila": {
+"name": "Kaffila",
+"city": "Manner-Suomi",
+"lat": 61.49672,
+"lon": 23.76034,
+"disp": "Kaffila, 11, Aleksis Kiven katu, Nalkala, Keskustan suuralue, Tampere, Tampereen",
+"typ": "cafe"
+},
+"amurin_helmi": {
+"name": "Amurin Helmi",
+"city": "Manner-Suomi",
+"lat": 61.49932,
+"lon": 23.74301,
+"disp": "Amurin Helmi, 49, Satakunnankatu, Amuri B, Keskustan suuralue, Tampere, Tamperee",
+"typ": "cafe"
+},
+"gopal": {
+"name": "Gopal",
+"city": "Raisen",
+"lat": 23.49667,
+"lon": 78.64291,
+"disp": "Gopal, Begamganj Tahsil, Raisen, Madhya Pradesh, India",
+"typ": "administrative"
+},
+"mardin": {
+"name": "Ravintola Mardin",
+"city": "Manner-Suomi",
+"lat": 61.50118,
+"lon": 23.77791,
+"disp": "Ravintola Mardin, 32, Pinninkatu, Tammela, Tammela B, Keskustan suuralue, Tamper",
+"typ": "restaurant"
+},
+"kiinantahti": {
+"name": "Kiinan Tähti",
+"city": "Manner-Suomi",
+"lat": 61.49611,
+"lon": 23.75484,
+"disp": "Kiinan Tähti, 15, Hallituskatu, Nalkala, Keskustan suuralue, Tampere, Tampereen ",
+"typ": "fast_food"
+},
+"faasai": {
+"name": "Faasai",
+"city": "Manner-Suomi",
+"lat": 61.48992,
+"lon": 23.7725,
+"disp": "Faasai, 26, Hatanpään valtatie, Ratinanranta, Hatanpää, Keskustan suuralue, Tamp",
+"typ": "restaurant"
+},
+"sitko": {
+"name": "Sitko Pizza & Bar",
+"city": "Manner-Suomi",
+"lat": 61.49858,
+"lon": 23.75426,
+"disp": "Sitko Pizza & Bar, 22, Näsilinnankatu, Tammerkoski, Keskustan suuralue, Tampere,",
+"typ": "restaurant"
+},
+"social": {
+"name": "Social Burgerjoint",
+"city": "Manner-Suomi",
+"lat": 61.4983,
+"lon": 23.76652,
+"disp": "Social Burgerjoint, 14, Hämeenkatu, Kyttälä, Kyttälä A, Keskustan suuralue, Tamp",
+"typ": "fast_food"
+},
+"friends": {
+"name": "Friends & Brgrs",
+"city": "Manner-Suomi",
+"lat": 61.49386,
+"lon": 23.77454,
+"disp": "Friends & Brgrs, 3, Kansikatu, Kalevanharju, Keskustan suuralue, Tampere, Tamper",
+"typ": "fast_food"
+},
+"hesburger": {
+"name": "Hesburger",
+"city": "Manner-Suomi",
+"lat": 61.49717,
+"lon": 23.76132,
+"disp": "Hesburger, 5, Keskustori, Nalkala, Keskustan suuralue, Tampere, Tampereen seutuk",
+"typ": "fast_food"
+},
+"ikea": {
+"name": "IKEA Tampere",
+"city": "Manner-Suomi",
+"lat": 61.45298,
+"lon": 23.77038,
+"disp": "IKEA Tampere, 4, Leppästensuonkatu, Lahdesjärvi, Eteläinen suuralue, Tampere, Ta",
+"typ": "furniture"
+},
+"gelateria": {
+"name": "Gelateria Italiano",
+"city": "Manner-Suomi",
+"lat": 61.50054,
+"lon": 23.75937,
+"disp": "Gelateria Italiano, 4, Frenckellinaukio, Tammerkoski, Keskustan suuralue, Tamper",
+"typ": "restaurant"
+},
+"kahvila_arboretum": {
+"name": "Kahvila Arboretum",
+"city": "Manner-Suomi",
+"lat": 61.48233,
+"lon": 23.74977,
+"disp": "Kahvila Arboretum, 2, Ottelia Ladaun polku, Hatanpää, Keskustan suuralue, Tamper",
+"typ": "cafe"
+},
+"waffle": {
+"name": "Panttitalon vohvelikahvila",
+"city": "Manner-Suomi",
+"lat": 61.49918,
+"lon": 23.75788,
+"disp": "Panttitalon vohvelikahvila, 11, Puutarhakatu, Tammerkoski, Keskustan suuralue, T",
+"typ": "cafe"
+},
+"valssi": {
+"name": "Museoravintola Valssi",
+"city": "Manner-Suomi",
+"lat": 61.50281,
+"lon": 23.76042,
+"disp": "Museoravintola Valssi, 5, Alaverstaanraitti, Ranta-Tampella, Tampella, Keskustan",
+"typ": "restaurant"
+},
+"kaisla": {
+"name": "Ravintola Kaisla",
+"city": "Manner-Suomi",
+"lat": 61.50376,
+"lon": 23.74659,
+"disp": "Ravintola Kaisla, 2, Paasikivenkatu, Särkänniemi, Keskustan suuralue, Tampere, T",
+"typ": "restaurant"
+},
+"malabadi": {
+"name": "Malabadi",
+"city": "Manner-Suomi",
+"lat": 61.45078,
+"lon": 23.84763,
+"disp": "Malabadi, 2, Lindforsinkatu, Pohjois-Hervanta, Hervanta, Kaakkoinen suuralue, Ta",
+"typ": "restaurant"
+},
+"telakka": {
+"name": "Ravintola Telakka",
+"city": "Manner-Suomi",
+"lat": 61.49803,
+"lon": 23.77793,
+"disp": "Ravintola Telakka, 3, Tullikamarin aukio, Tulli, Keskustan suuralue, Tampere, Ta",
+"typ": "restaurant"
+},
+"nandadevi": {
+"name": "Nanda Devi",
+"city": "Manner-Suomi",
+"lat": 61.49965,
+"lon": 23.75428,
+"disp": "Nanda Devi, 17, Näsilinnankatu, Tammerkoski, Keskustan suuralue, Tampere, Tamper",
+"typ": "restaurant"
+},
+"cowork": {
+"miss": 1
+},
+"library_uni": {
+"name": "Tampereen yliopiston kirjasto, Linnan toimipiste",
+"city": "Manner-Suomi",
+"lat": 61.49528,
+"lon": 23.77809,
+"disp": "Tampereen yliopiston kirjasto, Linnan toimipiste, 5, Kalevantie, Tulli, Keskusta",
+"typ": "library"
+}
+}

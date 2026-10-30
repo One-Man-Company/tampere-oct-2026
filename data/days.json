@@ -1,0 +1,767 @@
+[
+{
+"id": "d0",
+"short": "Sat 31",
+"date": "31 Oct",
+"title": "Vilnius → Tallinn → ferry → Tampere",
+"meta": "04:00 start · 780 km · 10 h door to door",
+"sunrise": "07:50",
+"sunset": "16:25",
+"callout": {
+"type": "warn",
+"html": "**The hard day.** 600 km to Tallinn, a ferry, then 180 km more. It works only if you leave at 04:00 and stop four times. The baby will sleep through the first three hours — use them."
+},
+"items": [
+{
+"t": "03:40",
+"h": "Load the car in the dark",
+"p": "Bags packed the night before, thermos filled, children carried out in pyjamas. Check passports, car documents, and that the ferry booking is on a phone that will not die.",
+"m": [
+"15 min"
+]
+},
+{
+"t": "04:00",
+"h": "Vilnius → Panevėžys",
+"p": "170 km of empty road. **Nobody talks.** The 9- and 7-year-old will sleep; the baby will sleep if the car is warm and moving.",
+"m": [
+"2 h 10",
+"no stop"
+]
+},
+{
+"t": "06:15",
+"h": "Stop 1 — Panevėžys",
+"p": "Fuel, toilets, first nappy. Ten minutes maximum: the trick on this drive is short stops, not long ones.",
+"m": [
+"15 min",
+"fuel"
+]
+},
+{
+"t": "06:30",
+"h": "Panevėžys → Riga bypass",
+"p": "Another 130 km. Breakfast from the bag: rye bread, cheese, bananas, a flask of coffee. Do not sit down in a café — it costs an hour.",
+"m": [
+"1 h 50"
+]
+},
+{
+"t": "08:30",
+"h": "Stop 2 — Riga ring road",
+"p": "Fuel and coffee at the bypass, no city entry. This is where you realise the trip is really happening.",
+"m": [
+"20 min"
+]
+},
+{
+"t": "08:50",
+"h": "Riga → Pärnu",
+"p": "130 km, the prettiest stretch: forest, bog, the first sea light.",
+"m": [
+"1 h 45"
+]
+},
+{
+"t": "10:45",
+"h": "Stop 3 — Pärnu",
+"p": "Twenty minutes by the beach if it is not raining, otherwise a petrol-station coffee. Legs out, baby fed, everyone back in.",
+"m": [
+"25 min"
+]
+},
+{
+"t": "11:15",
+"h": "Pärnu → Tallinn",
+"p": "130 km. The children will ask 'are we there yet' exactly here.",
+"m": [
+"1 h 45"
+]
+},
+{
+"t": "12:45",
+"h": "Tallinn, D-terminal",
+"p": "Tallink check-in. Be at the gate **45 minutes before** departure with a car — the queue closes 30 minutes before. Have the booking reference ready.",
+"m": [
+"45 min",
+"check-in"
+]
+},
+{
+"t": "13:30",
+"h": "Ferry: MyStar, 2 h",
+"p": "Tallinn 13:30 → Helsinki 15:30. Eat on board: the buffet is expensive, the café deck is fine. There is a play area and a deck to stand on. **This is the baby's best nap of the day.**",
+"m": [
+"2 h",
+"≈€210–250 car + 5"
+]
+},
+{
+"t": "15:30",
+"h": "Helsinki → Tampere",
+"p": "180 km of motorway, 1 h 50. Last stop at a ABC/Neste station before Tampere for milk, bread and breakfast — **most Finnish shops are shut on All Saints' Day.**",
+"m": [
+"1 h 50",
+"180 km"
+]
+},
+{
+"t": "17:30",
+"h": "Santalahti",
+"p": "Keys, lift, bags. The flat is 2 km west of the centre on the lake. Do not unpack properly tonight.",
+"m": [
+"15 min"
+]
+},
+{
+"t": "18:00",
+"h": "Dinner, nothing clever",
+"p": "Either **[[kaisla]]** (12 min walk along the water) or **[[hesburger]]** on Keskustori if everyone is finished. No cooking tonight.",
+"m": [
+"1 h",
+"€35–60"
+]
+},
+{
+"t": "19:30",
+"h": "Bath, bed, sauna",
+"p": "If the flat has a sauna, use it after the children are down. Finnish apartments usually do — and it is the fastest way to feel human again.",
+"m": [
+"—"
+]
+}
+],
+"alts": [
+"**Running late at Tallinn?** The 16:30 Megastar is the safety net — you reach Tampere around 20:30. Do not try to catch a ferry you cannot make; the ticket can be changed for a fee.",
+"**Ferry choice:** the 12:30 Victoria I takes 3.5 h instead of 2 h but gives you a proper sit-down meal and more space. With a 9-month-old, that is sometimes the better trade.",
+"**Driving at night:** do not. The last 180 km in Finland are moose country after dark and the children will not sleep twice."
+],
+"note": "Book the ferry before you leave Vilnius. A car with five people on a Saturday in winter is not a walk-up purchase, and the cheap fares are the early bookings."
+},
+{
+"id": "d1",
+"short": "Sun 1",
+"date": "1 Nov",
+"title": "All Saints' Day: tower, Moomin, candles",
+"meta": "Dry · 7 °C · sunset 16:22 · the gentlest day of the week",
+"sunrise": "07:53",
+"sunset": "16:22",
+"callout": {
+"type": "good",
+"html": "**No driving today.** Everything is within 3 km of the flat. Finland is quiet — All Saints' is a family day, not a shopping day, and the evening belongs to candles."
+},
+"items": [
+{
+"t": "08:30",
+"h": "Slow breakfast at home",
+"p": "You bought bread last night. Nobody leaves the flat before 09:45 — the children need a slow morning after 780 km.",
+"m": [
+"1 h"
+]
+},
+{
+"t": "10:00",
+"h": "[[pyynikki]] — tower and doughnuts",
+"p": "Twenty minutes' drive, or a 35-minute walk. Climb the 130 steps (€2 adult, €1 child), then eat warm cardamom doughnuts at the café below. **The single best-value hour in Tampere.**",
+"m": [
+"1 h",
+"€7 for 5",
+"Kids 5/5"
+]
+},
+{
+"t": "11:15",
+"h": "Walk the ridge",
+"p": "Pyynikki is the world's largest gravel ridge. A flat 1 km path through pine trees, then back to the car. The baby can sleep in the buggy here — it is the one place the wheels work.",
+"m": [
+"45 min",
+"free"
+]
+},
+{
+"t": "12:15",
+"h": "Lunch — remember it is Sunday",
+"p": "**The market hall is closed.** Use **[[pancho]]** on Hämeenkatu (children's menu, crayons) or **[[napoli]]** for a big pizza to share. Both are 5 minutes from the cathedral.",
+"m": [
+"1 h",
+"€40–50"
+]
+},
+{
+"t": "13:30",
+"h": "[[tuomiokirkko]] — ten minutes of quiet",
+"p": "Granite, 1907, and the strangest frescoes in Finland. Free. Let the 9-year-old find the skeletons carrying flowers.",
+"m": [
+"30 min",
+"free"
+]
+},
+{
+"t": "14:15",
+"h": "[[muumimuseo]]",
+"p": "Sunday hours 9–17. Family ticket €36 covers all five, and the Studio workshop (12:00–16:00) is included — glue, paper, and three children sitting still.",
+"m": [
+"2 h",
+"€36 for 5",
+"Kids 5/5"
+]
+},
+{
+"t": "16:15",
+"h": "[[kalevankangas]] — candles",
+"p": "Sunset is 16:22. On All Saints' weekend Finnish families light candles on every grave; the whole hillside is a field of small flames. Free, silent, unforgettable. **Explain it to the children first, quietly.**",
+"m": [
+"40 min",
+"free"
+]
+},
+{
+"t": "17:15",
+"h": "Home, sauna, pasta",
+"p": "Dark at 16:30, so the evening is indoors. Cook, sauna, and get everyone to bed by 20:30 — tomorrow is a moving day.",
+"m": [
+"—"
+]
+}
+],
+"alts": [
+"**Rain?** Swap the tower for the Moomin Museum in the morning and the swimming hall in the afternoon.",
+"**Children with energy to burn:** [[koskipuisto]] playground by the rapids, 10 minutes from the cathedral, free.",
+"**Want the forest instead?** [[kintulammi]] — a fire, sausages, 25 minutes north. Only if you are all awake by 09:00."
+],
+"note": "All Saints' Day is 31 Oct in Finland, but the candles stay lit all weekend. Sunday evening is the quietest and most beautiful."
+},
+{
+"id": "d2",
+"short": "Mon 2",
+"date": "2 Nov",
+"title": "Check out, swim, move to the second flat",
+"meta": "3.7 mm rain · the wettest day · museums closed",
+"sunrise": "07:56",
+"sunset": "16:19",
+"callout": {
+"type": "bad",
+"html": "**Every museum in Tampere is closed on Monday** — Vapriikki, the Moomin Museum, Milavida. This is the day to swim, eat mustamakkara and move house."
+},
+"items": [
+{
+"t": "09:00",
+"h": "[[tammelantori]] — mustamakkara",
+"p": "The market is busiest 8–12. Buy sausage by weight at Tapola, add lingonberry jam, drink milk from a paper cup. About €12 for all five, eaten standing up.",
+"m": [
+"45 min",
+"€12 for 5",
+"Kids 4/5"
+]
+},
+{
+"t": "10:00",
+"h": "[[kauppahalli]] — provisions",
+"p": "Open Monday 9–18. Rye bread, cheese, pastries, fruit for the new flat. This is also the cheapest lunch in the centre if you are hungry again.",
+"m": [
+"45 min",
+"€25 for 5"
+]
+},
+{
+"t": "11:00",
+"h": "Pack the car",
+"p": "Checkout is usually 11:00–12:00. Strip the beds, empty the fridge, put everything in the boot. Leave the buggy out.",
+"m": [
+"1 h"
+]
+},
+{
+"t": "13:00",
+"h": "[[uintikeskus]] — swimming",
+"p": "Kaleva, open Monday, warm children's pool. Two hours of guaranteed happiness on the wettest day of the week, about €22 for five. Bring towels and a padlock.",
+"m": [
+"2 h",
+"€22 for 5",
+"Kids 5/5"
+]
+},
+{
+"t": "15:30",
+"h": "Move to the second flat",
+"p": "Ten minutes across town. Unpack properly this time — you are here for five nights, and the work week starts tomorrow.",
+"m": [
+"1 h"
+]
+},
+{
+"t": "17:00",
+"h": "Laundry and a supermarket run",
+"p": "[[kcitymarket]] in Lielahti is open until 22:00. Buy for three breakfasts and two dinners. This is where the food budget is won.",
+"m": [
+"1 h",
+"€80 for 5"
+]
+},
+{
+"t": "18:30",
+"h": "Early dinner, early bed",
+"p": "Pasta or soup at home. Tomorrow the alarm is for work, not for children.",
+"m": [
+"—"
+]
+}
+],
+"alts": [
+"**Still in the first flat?** You can stay until checkout, leave bags, swim, and move in the afternoon. Ask the host for a 12:00 checkout when you book.",
+"**Awful weather and no energy:** [[ratina]] mall — heated, food court, cinema, supermarket, bus station. Not glamorous, entirely practical."
+],
+"note": "Book the second flat for 2–7 Nov (5 nights) as soon as you can. Tampere fills up in early November with conferences, and a family of five needs parking plus a lift."
+},
+{
+"id": "d3",
+"short": "Tue 3",
+"date": "3 Nov",
+"title": "Dad works · family takes Vapriikki",
+"meta": "Dry · 7 °C · gusts 51 km/h · sunset 16:17",
+"sunrise": "07:59",
+"sunset": "16:17",
+"callout": {
+"type": "info",
+"html": "**First solo day for mum.** The rule for this week: one indoor anchor, one short walk, home before dark. Everything below is doable with three children and no second adult."
+},
+"items": [
+{
+"t": "08:00",
+"h": "Dad at the desk",
+"p": "The flat has the kitchen table; the [[library_uni]] is the quiet alternative, 12 minutes' walk, free, with guest wifi.",
+"m": [
+"work day"
+]
+},
+{
+"t": "10:00",
+"h": "[[vapriikki]]",
+"p": "Ten museums, one ticket, €38 for the family. Dinosaurs, the Hockey Hall of Fame, minerals that glow. Warm, with lifts and toilets on every floor.",
+"m": [
+"2.5 h",
+"€38 for 5",
+"Kids 4/5"
+]
+},
+{
+"t": "12:30",
+"h": "Lunch at [[valssi]]",
+"p": "The museum restaurant: a lunch plate, salad bar and a children's portion. You do not have to put coats back on, which is the whole point.",
+"m": [
+"45 min",
+"€45 for 5"
+]
+},
+{
+"t": "13:30",
+"h": "[[metso]] — the library",
+"p": "Free, warm, ten minutes' walk. A whole floor of children's books, a baby-changing room, and sofas. The 7-year-old reads; the baby crawls.",
+"m": [
+"1 h",
+"free"
+]
+},
+{
+"t": "15:00",
+"h": "Home before dark",
+"p": "Sunset 16:17. Walk back along the rapids, or take the bus. Home for milk and a nap for whoever still naps.",
+"m": [
+"30 min"
+]
+},
+{
+"t": "17:30",
+"h": "Dad finishes · dinner",
+"p": "Cook at home. If everyone needs to get out, [[plevna]] in the Finlayson mill takes five without a booking at 17:00.",
+"m": [
+"1.5 h",
+"€60 for 5"
+]
+}
+],
+"alts": [
+"**Museum fatigue?** Swap Vapriikki for [[tallipiha]] (free, chocolate, glassblowing) plus the Finlayson courtyard.",
+"**The 9-month-old is done by 11:00:** go to Vapriikki at 10:00 sharp, leave at 12:00, and skip the library."
+],
+"note": "One adult, three children, short days. Two hours out, one hour home is a good day — do not try to fill eight hours."
+},
+{
+"id": "d4",
+"short": "Wed 4",
+"date": "4 Nov",
+"title": "Hämeenlinna: a real castle",
+"meta": "0 mm · 6 °C · the dry road-trip day",
+"sunrise": "08:02",
+"sunset": "16:14",
+"callout": {
+"type": "good",
+"html": "**The best day trip of the week.** 79 km each way on a motorway, a medieval castle, and a park with a tower. Leave by 09:00 — the castle shuts at 16:00 and the light goes at 16:14."
+},
+"items": [
+{
+"t": "09:00",
+"h": "Drive to Hämeenlinna",
+"p": "79 km, one hour. Motorway the whole way; the baby will sleep. Park at the castle car park.",
+"m": [
+"1 h",
+"79 km"
+]
+},
+{
+"t": "10:15",
+"h": "[[hameenlinna]] — ramparts and a great hall",
+"p": "A 13th-century brick castle on the lake. Ramparts, a great hall, a tower to climb, model knights. Family ticket about €35. **Carrier, not buggy.**",
+"m": [
+"2 h",
+"≈€35 for 5",
+"Kids 4/5"
+]
+},
+{
+"t": "12:15",
+"h": "Lunch in town",
+"p": "The castle café is small. The town centre is 800 m: pizza, soup or a market lunch for about €40 for five.",
+"m": [
+"1 h",
+"€40 for 5"
+]
+},
+{
+"t": "13:15",
+"h": "[[aulanko]]",
+"p": "Ten minutes away: a 19th-century landscape park of ridges and ponds, with a tower (€2) over Lake Vanajavesi. Free to walk, flat paths, no traffic.",
+"m": [
+"1.5 h",
+"€4 for 5"
+]
+},
+{
+"t": "14:45",
+"h": "Drive back",
+"p": "Home by 15:45, before dark. The children will sleep in the car — carry them in.",
+"m": [
+"1 h"
+]
+},
+{
+"t": "17:00",
+"h": "Quiet evening",
+"p": "Dad finishes work. Soup, bath, early night.",
+"m": [
+"—"
+]
+}
+],
+"alts": [
+"**Castle closed or too much?** Hämeenlinna has a prison museum and a glass museum, but honestly: skip the second sight and go home.",
+"**Raining hard:** turn around and go to [[ideapark]] instead — 20 minutes, indoors, no castles."
+],
+"note": "Häme Castle is closed on Mondays and shuts at 16:00 Tue–Fri. Check the day before; Finnish winter hours are unforgiving."
+},
+{
+"id": "d5",
+"short": "Thu 5",
+"date": "5 Nov",
+"title": "Kangasala: old cars in a pine forest",
+"meta": "0 mm · 7 °C · gusts 55 km/h — a windy, dry day",
+"sunrise": "08:04",
+"sunset": "16:11",
+"callout": {
+"type": "info",
+"html": "**Short drive, free museum, big view.** Twenty-five minutes each way, so even a bad night with the baby does not ruin it. If the wind is as strong as forecast, skip the ridge and stay in the museum café."
+},
+"items": [
+{
+"t": "09:30",
+"h": "Drive to Kangasala",
+"p": "25 km, 30 minutes. The road runs between lakes the whole way.",
+"m": [
+"30 min",
+"25 km"
+]
+},
+{
+"t": "10:00",
+"h": "[[vehoniemi]] — car museum",
+"p": "A volunteer-run museum of Finnish motoring: 1930s saloons, motorcycles, engines, all in a lakeside pine park. **Free** (donation). Warm and small enough for a 9-month-old.",
+"m": [
+"1.5 h",
+"free",
+"Kids 4/5"
+]
+},
+{
+"t": "11:45",
+"h": "[[kangasala]] — the ridge",
+"p": "Fifteen minutes away: a short steep climb to the view that a Finnish painter made famous in 1858, with a wooden café pavilion. Free. **Carrier, not buggy.**",
+"m": [
+"1 h",
+"free"
+]
+},
+{
+"t": "13:00",
+"h": "Lunch in Kangasala",
+"p": "The pavilion café does soup and pulla; the town centre has a pizzeria. About €35 for five.",
+"m": [
+"1 h",
+"€35 for 5"
+]
+},
+{
+"t": "14:15",
+"h": "Drive home",
+"p": "Home by 15:00, before the light goes.",
+"m": [
+"30 min"
+]
+},
+{
+"t": "16:00",
+"h": "Pack a bag for tomorrow",
+"p": "Friday is the last Tampere day; Saturday is Helsinki and the ferry. Start the laundry tonight.",
+"m": [
+"—"
+]
+}
+],
+"alts": [
+"**Too windy for the ridge:** the museum café has a view of its own. Or drive to [[ideapark]] on the way home.",
+"**Children want water:** [[pyynikin_uimahalli]] is 15 minutes from home and warm."
+],
+"note": "Vehoniemi's winter hours are shorter than summer — check the website the night before. If it is shut, the ridge and the café still make the drive worth it."
+},
+{
+"id": "d6",
+"short": "Fri 6",
+"date": "6 Nov",
+"title": "Last Tampere day: free museum, pack the car",
+"meta": "0 mm · 6 °C · sunset 16:08",
+"sunrise": "08:07",
+"sunset": "16:08",
+"callout": {
+"type": "good",
+"html": "**Vapriikki is free for everyone on Fridays 15:00–18:00.** If you skipped it on Tuesday, this is the day. If you did not, come back for the halls you missed and save €38."
+},
+"items": [
+{
+"t": "09:30",
+"h": "Slow morning, laundry",
+"p": "Five nights in one flat means one laundry day. Start it now, not tomorrow morning.",
+"m": [
+"1 h"
+]
+},
+{
+"t": "11:00",
+"h": "[[tallipiha]] and [[finlayson]]",
+"p": "The old stable yards: chocolate shop, glassblower, toy shop, café, cobbles. Free, compact, no traffic. The 7-year-old will watch the glass for ten minutes.",
+"m": [
+"1.5 h",
+"€20 for 5"
+]
+},
+{
+"t": "12:30",
+"h": "Lunch at [[plevna]]",
+"p": "Brewery restaurant in the mill next door: sausages, schnitzel, children's portions, big tables. Book for five at 12:30 or just walk in early.",
+"m": [
+"1.5 h",
+"€60 for 5"
+]
+},
+{
+"t": "15:00",
+"h": "[[vapriikki]] — free entry",
+"p": "Fridays 15:00–18:00, no ticket. Do the halls you missed, or let the children go straight back to the dinosaurs.",
+"m": [
+"2 h",
+"free"
+]
+},
+{
+"t": "17:30",
+"h": "Pack properly",
+"p": "One bag per person plus a bag for the ferry. Sausages and matches out of the boot. Charge everything.",
+"m": [
+"1 h"
+]
+},
+{
+"t": "19:00",
+"h": "Last dinner",
+"p": "Something easy and early — [[sitko]] pizza or leftovers. Tomorrow starts at 08:30.",
+"m": [
+"1 h",
+"€50 for 5"
+]
+}
+],
+"alts": [
+"**Want one more forest?** [[niihama]] café and the Kauppi trails, 15 minutes north, if it is dry.",
+"**Want one more swim?** [[pyynikin_uimahalli]] in the morning instead of Tallipiha."
+],
+"note": "Check out on Saturday morning is usually 11:00, but you are leaving at 08:30 — tell the host the night before and leave the keys as agreed."
+},
+{
+"id": "d7",
+"short": "Sat 7",
+"date": "7 Nov",
+"title": "Tampere → Heureka → ferry → Tallinn",
+"meta": "0.6 mm · 6 °C · the long transit day, west to east",
+"sunrise": "08:10",
+"sunset": "16:06",
+"callout": {
+"type": "warn",
+"html": "**Two borders, one museum, one ferry.** Leave Tampere by 08:30. Heureka is 15 minutes off the motorway and worth three hours; the ferry check-in closes 45 minutes before sailing."
+},
+"items": [
+{
+"t": "08:30",
+"h": "Leave Tampere",
+"p": "165 km to Vantaa, 1 h 45. Breakfast in the car; the children sleep the first hour.",
+"m": [
+"1 h 45"
+]
+},
+{
+"t": "10:30",
+"h": "[[heureka]]",
+"p": "Buy tickets online the night before: €23 adult / €16 child instead of €26/€19, and under-5s free. Everything can be touched. Three hours disappears.",
+"m": [
+"3 h",
+"€78 for 5",
+"Kids 5/5"
+]
+},
+{
+"t": "13:30",
+"h": "Lunch at Heureka",
+"p": "The science restaurant does a family lunch, or eat the sandwiches you brought in the picnic room downstairs.",
+"m": [
+"45 min",
+"€40 for 5"
+]
+},
+{
+"t": "14:30",
+"h": "Drive to West Harbour",
+"p": "25 km, 30 minutes, through Vantaa and Helsinki. Fill the car before the ferry — Finnish fuel is cheaper than Estonian motorway fuel.",
+"m": [
+"40 min"
+]
+},
+{
+"t": "15:45",
+"h": "Check-in, Tallink terminal",
+"p": "Be at the gate 45 minutes before. Passport for everyone, including the baby.",
+"m": [
+"45 min"
+]
+},
+{
+"t": "16:30",
+"h": "Ferry to Tallinn",
+"p": "About 2 h. Eat on board, let the children run on deck, put the baby down in the buggy. Arrive Tallinn around 18:30.",
+"m": [
+"2 h",
+"≈€240 car + 5"
+]
+},
+{
+"t": "19:00",
+"h": "Hotel, then [[balti_jaam]]",
+"p": "Drop the car, walk to the market. Three floors of cheap food, a bakery, a supermarket. Everyone eats something different for €32.",
+"m": [
+"1.5 h",
+"€32 for 5"
+]
+},
+{
+"t": "20:30",
+"h": "Old Town after dark",
+"p": "Ten minutes' walk to the town hall square. Lit walls, empty streets, no crowds in November. The best free hour of the whole return.",
+"m": [
+"30 min",
+"free"
+]
+}
+],
+"alts": [
+"**Ferry timings vary by date** — Saturday sailings are roughly 07:30, 10:30, 13:30, 16:30 and 19:30, but confirm when you book and build the day around the actual departure.",
+"**Skip Heureka to save €78?** Take the 13:30 ferry and spend the afternoon in Tallinn instead. The Old Town and Lennusadam are free/cheap."
+],
+"note": "Book the return ferry in the same session as the outbound — car space on winter Saturdays is limited and the cheap fares go first."
+},
+{
+"id": "d8",
+"short": "Sun 8",
+"date": "8 Nov",
+"title": "Tallinn → Vilnius, the last 600 km",
+"meta": "0.6 mm · 5 °C · home by dark",
+"sunrise": "08:13",
+"sunset": "16:03",
+"callout": {
+"type": "warn",
+"html": "**Leave Tallinn by 10:00.** 600 km, seven hours of driving, and darkness from 16:15. Every hour you delay is an hour of night driving with three tired children."
+},
+"items": [
+{
+"t": "08:30",
+"h": "[[tallinn_oldtown]] before it wakes",
+"p": "Coffee, the town hall square, the walls. Thirty minutes, free, and the photographs are better than at midday.",
+"m": [
+"45 min",
+"free"
+]
+},
+{
+"t": "09:30",
+"h": "Load the car",
+"p": "Fuel at the ring road, snacks and water for the drive. This is the last leg.",
+"m": [
+"30 min"
+]
+},
+{
+"t": "10:00",
+"h": "Tallinn → Pärnu",
+"p": "128 km, 1 h 45. The children will sleep; do not stop unless you must.",
+"m": [
+"1 h 45"
+]
+},
+{
+"t": "11:45",
+"h": "[[parnu_beach]] — 30 minutes",
+"p": "Eight minutes off the main road. Sand, a playground, toilets, a thermos. The best leg-stretch on the route.",
+"m": [
+"40 min",
+"free"
+]
+},
+{
+"t": "12:30",
+"h": "Pärnu → Vilnius",
+"p": "470 km, about 5 h 30 with two short stops. Cross into Latvia at Ikla, into Lithuania at Grenctāle.",
+"m": [
+"5 h 30"
+]
+},
+{
+"t": "18:00",
+"h": "Home",
+"p": "Unload, bath, bed. Nobody cooks.",
+"m": [
+"—"
+]
+}
+],
+"alts": [
+"**Want the submarine?** [[lennusadam]] opens at 10:00 on Sunday and takes two hours — but then you drive in the dark and reach Vilnius around 21:00. Only if the adults can share the driving.",
+"**Break the drive:** stop at [[sigulda]] (1 h from Riga) or [[rundale]] — but only if you have a spare night."
+],
+"note": "Winter tyres are mandatory in Lithuania from 10 November and in Finland from 1 December — you are just inside the window, but check the tread before you go."
+}
+]

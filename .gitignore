@@ -1,0 +1,6 @@
+# working screenshots, regenerated on demand — not part of the site
+shots/
+
+# python
+__pycache__/
+*.pyc
